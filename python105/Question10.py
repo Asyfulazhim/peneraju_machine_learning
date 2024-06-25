@@ -1,7 +1,6 @@
 c = input("Enter characters:")
 char = list(c)
 charlength = len(char)
-print(char)
 
 i = 0
 while i < charlength:
