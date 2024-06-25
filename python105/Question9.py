@@ -2,7 +2,6 @@
 # Write a program to convert a Roman numeral to an integer and also convert integer to Roman numeral
 # Roman numerals are represented by seven different symbols: I, V, X, L, C
 
-
 roman = input("Enter Roman Numeral: ")
 roman = roman.upper()
 roman_dict = {'I': 1, 'V': 5, 'X': 10
@@ -63,9 +62,3 @@ def int_to_rom(roman):
 
 intnum1 = int(input("Enter integer: "))
 print(int_to_rom(intnum1))
-
-
-
-
-# print(roman_dict[roman])
-# print(roman_dict['X'])
