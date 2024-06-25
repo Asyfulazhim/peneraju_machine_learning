@@ -48,11 +48,17 @@ def calculateSST(prices):
     return pricewithsst
 
 # map function
-pricewithsst = list(map(calculateSST, prices))
+pricewithsst = map(calculateSST, prices)
 print(pricewithsst)
 # what map does?
 # there is for loop in map
-#
+
+# def map(func, values):
+#     result = []
+#     for value in values:
+#         result.append(func(value))
+#     return result
+
 
 # Situation 4
 # traditional

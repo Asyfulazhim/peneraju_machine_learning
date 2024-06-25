@@ -160,24 +160,24 @@ listSixLetterFruits("Apple",20, 1.40, "Orange", 40, 1.2)
 # sum function
 def sum(a,b):
     total = a + b
-    print(total)
+    print("sum:",total)
     return total
 
 # minus fucntion
 def minus(a,b):
     total = a - b
-    print(total)
+    print("minus:",total)
     return total
 
 def mul(a,b):
     total = a * b
-    print(total)
+    print("multiply:",total)
     return total
 
 # create fucntion that can call function created in future
 #     
 def arithmetic(func, a, b):
-    func(a,b)
+    return func(a,b)
 
 
 arithmetic(sum, 10, 20)
