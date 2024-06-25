@@ -48,7 +48,7 @@ def calculateSST(prices):
     return pricewithsst
 
 # map function
-pricewithsst = map(calculateSST, prices)
+pricewithsst = list(map(calculateSST, prices))
 print(pricewithsst)
 # what map does?
 # there is for loop in map
@@ -58,7 +58,6 @@ print(pricewithsst)
 #     for value in values:
 #         result.append(func(value))
 #     return result
-
 
 # Situation 4
 # traditional
@@ -74,6 +73,13 @@ print("-"*100)
 # we can use list comprehension
 # syntax: [expression for item in iterable]
 celciusvalues = [(fahrenheit - 32) * 5/9 for fahrenheit in  fahrenheitvalues]
+print(celciusvalues)
+print("-"*100)
+
+# map function
+def fahrenheitToCelcius(fahrenheit):
+    return (fahrenheit - 32) * 5/9
+celciusvalues = list(map(fahrenheitToCelcius, fahrenheitvalues))
 print(celciusvalues)
 print("="*100)
 
