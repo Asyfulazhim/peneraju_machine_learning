@@ -61,6 +61,7 @@ print(pricewithsst)
 
 # Situation 4
 # traditional
+print("Celcius to Fahrenheit")
 celciusvalues = []
 fahrenheitvalues = [32, 212, 100, 212, 90, 0]
 for fahrenheit in fahrenheitvalues:
@@ -84,6 +85,7 @@ print(celciusvalues)
 print("="*100)
 
 # situation 5
+print("Multiple Three")
 multipleofthree = []
 for number in range(1,50): #list of 50 items
     if number % 3 == 0:
@@ -94,9 +96,19 @@ print("-"*100)
 #list comprehension
 multipleofthree = [number for number in range(1,50) if number % 3 == 0]
 print(multipleofthree)
+print("-"*100)
+
+# filter function
+# always return boolean value
+def findMultipleOfThree(number):
+    return True if (number % 3 == 0) else False
+
+multipleofthree = list(filter(findMultipleOfThree, range(1,50)))
+print(multipleofthree)
 print("="*100)
 
 # Situatio 6
+print("Odd Number")
 numbers = [2,5,7,3,4,6,10,11,15,17,24,22]
 oddnumbers = []
 for number in numbers:
@@ -107,6 +119,16 @@ print("-"*100)
 
 #list comprehension
 oddnumbers = [number for number in numbers if number % 2 != 0]
+print(oddnumbers)
+print("-"*100)
+
+# filter class used when
+# we want to filter out certain items from a list
+# if the list of input and list of output is difference
+# filter class is used
+def findOddNumbers(number):
+    return True if (number % 2 != 0) else False
+oddnumbers = list(filter(findOddNumbers, numbers))
 print(oddnumbers)
 print("="*100)
 
@@ -125,3 +147,11 @@ meanvalue /= len(range(1,11))
 print(f"{meanvalue:.2f}")
 print("="*100)
 
+# Reduce
+# built in function
+from functools import reduce
+print("Reduce Function:")
+numbers = [1,2,3]
+def findTotal(oldValue, currentValue):
+    return oldValue + currentValue
+print(reduce(findTotal, numbers))
