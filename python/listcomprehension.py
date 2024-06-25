@@ -10,19 +10,24 @@ for fruit in fruits:
     overseafruits.append(fruit)
 print("-"*100)
 
-#list comprehension
-overseafruits = [fruit for fruit in fruits if fruit != "banana"]
-print(overseafruits)
-print("="*100)
-
-
+# Situation 2
 # for loop with some statement
 overseafruits = []
 for fruit in fruits:
     if fruit != "banana":
         overseafruits.append(fruit)
 print(overseafruits)
+print("-"*100)
+
+#list comprehension
+overseafruits = [fruit for fruit in fruits if fruit != "banana"]
+print(overseafruits)
 print("="*100)
+
+#tuple comprehension
+overseafruits = tuple(fruit for fruit in fruits if fruit != "banana")
+print(overseafruits)
+
 
 # Situation 3
 pricewithsst = []
@@ -67,13 +72,26 @@ multipleofthree = [number for number in range(1,50) if number % 3 == 0]
 print(multipleofthree)
 print("="*100)
 
+# Situatio 6
 numbers = [2,5,7,3,4,6,10,11,15,17,24,22]
 oddnumbers = []
 for number in numbers:
     if number % 2 != 0:
         oddnumbers.append(number)
 print(oddnumbers)
+print("-"*100)
+
+#list comprehension
+oddnumbers = [number for number in numbers if number % 2 != 0]
+print(oddnumbers)
 print("="*100)
+
+# Situation 7
+sum = 0
+for number in range(1,11):
+    sum += number
+print("Sum:", sum)
+print("-"*100)
 
 # calculate mean value 1 -10 using for loop
 meanvalue = 0
@@ -82,6 +100,8 @@ for number in range(1,11):
     meanvalue /= len(range(1,11))
 print(f"{meanvalue:.2f}")
 print("="*100)
+
+# list comprehension
 
 
 
