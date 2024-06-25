@@ -27,7 +27,7 @@ print("="*100)
 #tuple comprehension
 overseafruits = tuple(fruit for fruit in fruits if fruit != "banana")
 print(overseafruits)
-
+print("farizz")
 
 # Situation 3
 prices = [1.5, 1.7, 2.2, 3.2, 1.8]
