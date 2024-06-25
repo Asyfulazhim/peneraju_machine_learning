@@ -1,6 +1,6 @@
 # deepcopy
 fruits = ["apple", "orange", "mango","banana", "grapes"]
-prices = [1.5, 1.7, 2.2, 3.2, 1.8]
+
 # overseafruits = fruits.copy()
 
 # situation 1
@@ -30,6 +30,7 @@ print(overseafruits)
 
 
 # Situation 3
+prices = [1.5, 1.7, 2.2, 3.2, 1.8]
 pricewithsst = []
 for price in prices:
     pricewithsst.append(price * 1.06)
@@ -41,6 +42,17 @@ pricewithsst = [price * 1.06 for price in prices]
 print(pricewithsst)
 print("="*100)
 
+# create a function
+def calculateSST(prices):
+    pricewithsst = price + price *0.06
+    return pricewithsst
+
+# map function
+pricewithsst = list(map(calculateSST, prices))
+print(pricewithsst)
+# what map does?
+# there is for loop in map
+#
 
 # Situation 4
 # traditional
@@ -97,11 +109,7 @@ print("-"*100)
 meanvalue = 0
 for number in range(1,11):
     meanvalue += number
-    meanvalue /= len(range(1,11))
+meanvalue /= len(range(1,11))
 print(f"{meanvalue:.2f}")
 print("="*100)
-
-# list comprehension
-
-
 
