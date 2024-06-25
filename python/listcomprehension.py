@@ -155,3 +155,10 @@ numbers = [1,2,3]
 def findTotal(oldValue, currentValue):
     return oldValue + currentValue
 print(reduce(findTotal, numbers))
+print("="*100)
+
+# find factorial
+print("Find Factorial")
+def factorial(oldValue, currentVAlue):
+    return oldValue * currentVAlue
+print(reduce(factorial, numbers))
