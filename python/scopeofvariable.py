@@ -65,3 +65,10 @@ simpleInterest(1000,1,6)
 # Summary
 # global keyword allows the function to modify the variable which is
 # in the outer fucntion context
+
+fruit = "apple"
+def modifyFruit():
+    fruit = ""
+    print(fruit)
+    fruit = "orange"
+modifyFruit()
