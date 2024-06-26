@@ -51,8 +51,17 @@ def simpleInterest(principle, period, rate):
     def printSimpleInterest():
         temp = 0
         print("Simple Interest:", result)
+        print("Principle",principle)
+        print("Period",period)
+        print("Rate:", rate)
+
     # print(temp) #not allowed
     result = (principle * period * rate)/100
-    printSimpleInterest()  
+    printSimpleInterest() 
+    print("Result:", result) 
 simpleInterest(1000,1,6)
 #print("Interest Amount: ",result)
+
+# Summary
+# global keyword allows the function to modify the variable which is
+# in the outer fucntion context
