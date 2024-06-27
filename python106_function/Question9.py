@@ -11,18 +11,14 @@ def Pascal(n) :
             listinrow.append(str(binomialCoeff(line,i)))
         pascal[line] = listinrow
     Pascal_Dict_to_List(pascal)
-    
-def Pascal_Dict_to_List(list):
-    for i in range(0, len(list)):
-        ListToString(list[i])
-        
-def ListToString(list):
-    width = 40
-    my_string = ' '.join(list)
-    padding = " " * ((width - len(my_string)) // 2)
-    print(f"{padding}{my_string}{padding}")
-   
-    
+
+def Pascal_Dict_to_List(pascaldict):
+    width = len(pascaldict) *3
+    for i in range(0, len(pascaldict)):
+        my_string = ' '.join(pascaldict[i])
+        padding = " " * ((width - len(my_string)) // 2)
+        print(f"{padding}{my_string}{padding}")
+
 def binomialCoeff(n, k) :
     res = 1
     if (k > n - k) :
@@ -32,18 +28,5 @@ def binomialCoeff(n, k) :
         res = res // (i + 1)
     return res
 
-n = 7
+n = int(input("Enter number of rows:"))
 Pascal(n)
-
-
-# This code is contributed by Nikita Tiwari.
-
-
-# def print_centered(s, width=40):
-#     """Print a string at the center of the console"""
-#     padding = " " * ((width - len(s)) // 2)
-#     print(f"{padding}{s}{padding}")
-
-# # Example usage:
-# print_centered("Perfect Numbers:")
-# print_centered("3, 6, 28, 496")
