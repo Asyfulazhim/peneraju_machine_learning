@@ -43,7 +43,7 @@ zul.address = {
     "State": "Selangor"
     }
 zul.info()
-
+print(zul)
 # how we can set value for the properties
 # 1) using constructor (__init__method)
 # 2) you can set value to the property directly using dot operator
