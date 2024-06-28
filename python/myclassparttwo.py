@@ -28,11 +28,15 @@ class Student:
         print(self.address["City"])
         print(self.address["State"])
                                                                     
+    # special metbod
+    def __str__(self):
+        return f"""{self.firstname} {self.lastname} {self.icnumber} {self.program}
+        {self.address['Street']} {self.address['City']} {self.address['State']}"""
     
 zul = Student("Ahmad", "Syahmi", "00077667412")
 zul.attendClass()
 zul.doProject("Project 1")
-zul.attendExam("Pyhton103")
+zul.attendExam("Python103")
 zul.address = {
     "Street": "15 Jalan s32",
     "City": "Kuala Lumpur",
