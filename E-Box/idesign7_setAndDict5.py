@@ -15,12 +15,12 @@
 # [1, 2, 3, 4, 5, 6, 15, 31]
 # 3
 # [6, 15, 31]
-
 def calculate_size(num):
     if num % 3 == 0:
         size = int(num / 3)
     else:
         size = int(num / 3) + 1
+    print(size)
     return size
 
 def convToSet(numlist):
@@ -41,10 +41,10 @@ def SumItem(numlist, size):
     else:
         for i in numlist:
             sumlist.append(i)
-    print("Sumlist", sumlist)
+    #print("Sumlist", sumlist)
     finallist = list(set(sumlist))
     finallist.sort()
-    print("Final",finallist)
+    print(finallist)
     return finallist
 
 def main(rand):
@@ -58,3 +58,4 @@ def main(rand):
 import random
 rand = random.randint(5,10)
 main(rand)
+
