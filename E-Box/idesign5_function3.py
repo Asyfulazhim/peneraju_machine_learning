@@ -17,26 +17,17 @@
 # Least common multiple of 3 and 9 = 9
 
 def GCD (n1,n2):
-    if n1>n2:
-        temp=n1
-        n1=n2
-        n2=temp
-    for i in range(1,n1+1):
-        if n1%i==0 and n2%i==0:
-            gcd=i
-    print(f"Greatest common divisor of {n1} and {n2} = {gcd}")
+    while n2 != 0:
+        n1,n2 = n2, n1 % n2
+    return int(n1)
 
 def LCM (n1,n2):
-    if n1>n2:
-        temp=n1
-        n1=n2
-        n2=temp
-    for i in range(1,n1+1):
-        if n1%i==0 and n2%i==0:
-            lcm=n1*i
-    print(f"Least common multiple of {n1} and {n2} = {lcm}") 
+    return abs(n1 * n2) // GCD(n1,n2)
 
+print("Enter two integers:")
 n1 = int(input())
 n2 = int(input())
-GCD(n1,n2)
-LCM(n1,n2)
+gcd = GCD(n1,n2)
+lcm = LCM(n1,n2)
+print(f"Greatest common divisor of {n1} and {n2} = {gcd}")
+print(f"Least common multiple of {n1} and {n2} = {lcm}") 
