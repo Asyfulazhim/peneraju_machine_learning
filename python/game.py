@@ -44,14 +44,15 @@ class Game:
     def __init__(self):
         self.elements = ["Thunder", "Fire", "Water", "Ghost"]
         self.pokemons = {
-            "jigglypuff":[Jigglypuff(f"J{i}", random.randint(50,100),self.elements[random.randint(0,len(self.elements)-1), random.randint(50,100)]) for i in range (0,random.randint(3,15))],
-            "pikachu":[Pikachu(f"P{i}", random.randint(50,100),self.elements[random.randint(0,len(self.elements)-1), random.randint(50,100)]) for i in range (0,random.randint(5,20))]
+            "jigglypuff":[Jigglypuff(f"J{i}", random.randint(50,100),self.elements[random.randint(0,len(self.elements) - 1)], random.randint(50,100)) for i in range (0,random.randint(3,15))],
+            "pikachu":[Pikachu(f"P{i}", random.randint(50,100),self.elements[random.randint(0,len(self.elements)-1)], random.randint(50,100)) for i in range (0,random.randint(5,20))]
         }
         
     def __str__(self):
-        for pokemonname, pokemonlist in self.pokemons.item():
+        message = ""
+        for pokemonname, pokemonlist in self.pokemons.items():
             for pokemon in pokemonlist:
-                message = message + pokemon.__str() + "\n" + ("-"*20) + "\n"
+                message = message + pokemon.__str__() + "\n" + ("-"*20) + "\n"
         return message
 
 game = Game()
