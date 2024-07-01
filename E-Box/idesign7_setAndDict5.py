@@ -20,7 +20,7 @@ def calculate_size(num):
         size = int(num / 3)
     else:
         size = int(num / 3) + 1
-    print(size)
+    #print(size)
     return size
 
 def convToSet(numlist):
@@ -48,14 +48,12 @@ def SumItem(numlist, size):
     return finallist
 
 def main(rand):
-    print(rand)
     num = input().split()
     numlist = convToSet(num)
     size = calculate_size(len(numlist))
-    #print("list",list)
     SumItem(numlist, size)
-
-import random
-rand = random.randint(5,10)
+    
+rand = int(input())
 main(rand)
+
 
