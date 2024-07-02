@@ -16,11 +16,7 @@
 # 3
 # [6, 15, 31]
 def calculate_size(num):
-    if num % 3 == 0:
-        size = int(num / 3)
-    else:
-        size = int(num / 3) + 1
-    #print(size)
+    size = int(input())
     return size
 
 def convToSet(numlist):
@@ -41,19 +37,19 @@ def SumItem(numlist, size):
     else:
         for i in numlist:
             sumlist.append(i)
-    #print("Sumlist", sumlist)
+    # print("Sumlist", sumlist)
     finallist = list(set(sumlist))
     finallist.sort()
     print(finallist)
     return finallist
 
-def main(rand):
+def main():
     num = input().split()
     numlist = convToSet(num)
     size = calculate_size(len(numlist))
     SumItem(numlist, size)
-    
+
 rand = int(input())
-main(rand)
+main()
 
 
