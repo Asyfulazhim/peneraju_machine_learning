@@ -65,3 +65,20 @@ print(alumni)
 
 # Iterator object like enumeratoe, range, map, filter do not override
 # __str__ method. They override __repr__ method.
+
+
+# What if i dont want my class to inherit from the base class called object
+# You will loose 
+
+class myclass:
+    pass
+
+# myclass(). will list more methods.
+# those method are coming from base class called object
+# no i insist i dont want my class to be inherited
+
+class noObjectClass():
+    pass
+
+test = noObjectClass()
+print(test)
