@@ -62,3 +62,12 @@ currentDay = currentDay + 1
 print(currentDay % totalDay)
 currentDay = currentDay + 1
 '''
+
+nestedlist = [
+    [1, 2, 3],
+    [3, 4, 5],
+    [1, 2, 3]
+]
+
+nestedlist = [tuple(item) for item in nestedlist]
+print(set(nestedlist))
