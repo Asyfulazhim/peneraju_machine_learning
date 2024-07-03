@@ -1,25 +1,39 @@
+x = 11
+
 # Syntax Error
-# x=1
-# if(x==1):
-# print("x is 1")
+# if (x % 2 == 0):
+# print("Even Number")
 
 # Logical Error
-# program is running but output is not as expected
+# if (x % 2 == 0):
+#    print(f"Given Number is {x}")
+# print("Even Number")
 
 # Runtime Error
-# error data from the user or system
-principle = int(input("Principle: "))
-period = int(input("Period"))
-rate = int(input("Rate: "))
-Interest = (principle * period * rate)/100
-print("Simple Interest: ", Interest)
 
-# how to solve runtime error?
 try:
+    # we know the following line is taking user input
+    # in future this may throw error
+    # then you must place this code inside a block called
+    # try except
     principle = int(input("Principle: "))
-    period = int(input("Period"))
-    rate = int(input("Rate: "))
-    Interest = (principle * period * rate)/100
-    print("Simple Interest: ", Interest)
-except:
-    print("Invalid Input")
+except ValueError:
+    # when that error occur what we must do
+    print("Principle amount must be an Integer")
+
+except Exception as e:
+    print("Something went wrong:", e)
+
+else:
+    print("All is well")
+
+finally:
+    print("Xie xie")
+
+# The program does not get terminated abnormally
+
+
+period = int(input("Period: "))
+rate = int(input("Rate: "))
+interest = (principle * period * rate) / 100
+print("Interest Amount: ", interest)
