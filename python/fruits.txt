@@ -1,3 +1,4 @@
 Product|Quantity|Price
 Raket|1|150.5
-Maggi|5|9.5
+Bicycle|1|559.9
+Shampoo|1|20.8
