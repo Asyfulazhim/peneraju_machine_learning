@@ -1,7 +1,7 @@
 
 from os.path import exists
 
-def keyboardInput(datatype,caption, errorMessage):
+def keyboardInput(datatype,caption, errorMessage, defaultValue = None):
     value = None
     isInvalid = True
     while (isInvalid):
@@ -17,12 +17,13 @@ filename = "fruits.txt"
 def doMenu(filename):
     choice = -1
     while choice != 0:
-        print("-----------------")
-        print("|  0 - Exit     |")
-        print("|  1 - List     |")
-        print("|  2 - Add Menu |")
-        print("|  3 - Add Menu |")
-        print("-----------------")
+        print("-------------------")
+        print("|  0 - Exit       |")
+        print("|  1 - List       |")
+        print("|  2 - Add        |")
+        print("|  3 - Edit       |")
+        print("|  4 - Delete     |")
+        print("-------------------")
         choice = keyboardInput(int, "Enter your choice: ", "Invalid choice")
         if choice==0:
             print("Zai Jian")
@@ -32,6 +33,8 @@ def doMenu(filename):
             addProduct(filename)
         elif choice == 3:
             editProduct(filename)
+        elif choice == 4:
+            deleteProduct(filename)
 
 def createFile(filename):
     if not exists(filename):
@@ -107,11 +110,41 @@ def editProduct(filename):
             print(f"{product}, {quantity}, {price}")
             confirm = keyboardInput(str, "Are you sure?  (y/n): ", "Please insert y or n")
             if confirm == "y":
-                newproduct = keyboardInput(str, f"Product[{product}]: ", f"Product must be string")
-                newquantity = keyboardInput(int, f"Quantity[{quantity}]: ", f"Quantity must integer")
-                newprice = keyboardInput(float, f"Price[{price}]: ", f"Price must float")
+                newproduct = keyboardInput(str, f"Product[{product}]: ", f"Product must be string", product)
+                newquantity = keyboardInput(int, f"Quantity[{quantity}]: ", f"Quantity must integer", quantity)
+                newprice = keyboardInput(float, f"Price[{price}]: ", f"Price must float", price)
                 data[index] = [newproduct, newquantity, newprice]
 
+                newlines = []
+                for prod in data:
+                    line = "|".join(map(str,prod)) + "\n"
+                    newlines.append(line)
+                newlines[-1] = newlines[-1].strip()
+                with open(filename, "wt") as filehandler:
+                    filehandler.writelines(newlines)
+
+    except Exception as e:
+        print("Error edit product:", e)
+
+def deleteProduct(filename):
+    try:
+        lines = None
+        with open(filename, "rt") as filehandler:
+            lines = filehandler.readlines()
+        data = []
+        for line in lines:
+            data.append(line.strip().split("|"))
+        print(data)
+
+        index = keyboardInput(int,"Plesase insert line number", "Number must be integer")
+        if index >= 4:
+            print("You can't edit this line")
+        else:
+            product, quantity, price = data[index]
+            print(f"{product}, {quantity}, {price}")
+            confirm = keyboardInput(str, "Are you sure?  (y/n): ", "Please insert y or n")
+            if confirm == "y":
+                del data[index]
                 newlines = []
                 for prod in data:
                     line = "|".join(map(str,prod)) + "\n"
