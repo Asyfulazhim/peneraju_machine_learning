@@ -1,0 +1,5 @@
+Product|Quantity|Price
+Orange|5|15.6
+Yakult|10|20.5
+Milo|3|7.5
+Maggi Chef|5|10.0

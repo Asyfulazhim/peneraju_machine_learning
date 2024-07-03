@@ -1,0 +1,4 @@
+Product|Quantity|Price
+Raket|1|150.5
+Maggi|5|9.5
+Milo|7|14.6
