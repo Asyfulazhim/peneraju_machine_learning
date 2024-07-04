@@ -1,20 +1,21 @@
 class State:
 	
-	def __init__(self,name,city_list):
+	def __init__(self,name,city_list=None) :
 		self.__name = name
-		self.__city_list = city_list if city_list is not None else []
+		self.__city_list = city_list if city_list is not None else[]
 		
-	def get_city_list(self):
-		return self.__city_list
+	def get_city_list(self) :
+		return self.__city_list.copy()
 		
-	def add_city_list(self,city_list):
-		self.__city_list.append(city_list)
+	def add_city_list(self,city) :
+		self.__city_list.append(city)
 		
-	def name(self) :
+	def get_name(self):
 		return self.__name
 		
 	def __str__(self) :
 		return f"{self.__name} has {len(self.__city_list)} cities"
+	
 	
 class City:
 	
@@ -23,8 +24,7 @@ class City:
 		self.__state = state
 		
 	def __str__(self):
-		
-		return f"{self.__name}is in state {self.__state.get_name()}"
+		return f"{self.__name} is in state {self.__state.get_name()}"
 
 # from City import City
 # from State import State
@@ -43,9 +43,9 @@ while choice == "Yes" :
 	state_name = input("Enter state name\n")
 	state_found_flag = 0
 	for state in state_list :
-		if state_name == state.name :
+		if state_name == state.get_name() :
 			city = City(city_name, state)
-			state.add_city_list.append(city)
+			state.add_city_list(city)
 			city_created_list.append(city)
 			state_found_flag = 1
 	if state_found_flag == 0 :
@@ -53,7 +53,7 @@ while choice == "Yes" :
 		state_list.append(state)
 		city = City(city_name, state)
 		city_created_list.append(city)
-		state.add.city_list.append(city)
+		state.add_city_list(city)
 	choice = input("Do you want to add another city? Type Yes / No\n")
 
 print("\nCity Details\n")
