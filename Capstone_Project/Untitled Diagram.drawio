@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T16:35:28.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0" etag="tLRqw3zWePRSBR00_FhE" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-05T16:43:10.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0" etag="ZmNMS7xwzwhuXxPQRKsk" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1102" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -227,7 +227,7 @@
           <mxGeometry y="174" width="160" height="16" as="geometry" />
         </mxCell>
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-121" value="Main Menu" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="30" width="180" height="156" as="geometry" />
+          <mxGeometry x="40" y="30" width="180" height="170" as="geometry" />
         </mxCell>
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-122" value="0 - Exit&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-121">
           <mxGeometry y="26" width="180" height="26" as="geometry" />
@@ -241,8 +241,8 @@
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-125" value="3 - Claim Insurance" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-121">
           <mxGeometry y="104" width="180" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="LjltIJ_5xy5s9-dVVkUB-136" value="4 - Invoice Insurance Claim" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-121">
-          <mxGeometry y="130" width="180" height="26" as="geometry" />
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-136" value="4 - Print Receipt&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-121">
+          <mxGeometry y="130" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-126" value="1 - Create Car Insurance" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="244" width="220" height="340" as="geometry" />
@@ -262,7 +262,7 @@
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-135" value="&lt;ul&gt;&lt;li&gt;Open BookngID.txt file&lt;/li&gt;&lt;li&gt;Read file and display at terminal&amp;nbsp;&lt;/li&gt;&lt;li&gt;User input. Choose Booking id by key in integer.&amp;nbsp;&lt;/li&gt;&lt;li&gt;From booking ID detail, find car id and Driver id&lt;/li&gt;&lt;li&gt;open CarInsurance.txt and DriverInsurance.txt. Find claim amount for car and driver.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Find Total Amount.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Update and append details into ClaimInsurance.txt file&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-134">
           <mxGeometry y="26" width="220" height="314" as="geometry" />
         </mxCell>
-        <mxCell id="LjltIJ_5xy5s9-dVVkUB-137" value="2- Create Driver Insurance" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-137" value="4 - Print Receipt" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="290" y="600" width="220" height="340" as="geometry" />
         </mxCell>
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-138" value="&lt;ul&gt;&lt;li&gt;Open Driver.txt file&lt;/li&gt;&lt;li&gt;Read file and display at terminal&amp;nbsp;&lt;/li&gt;&lt;li&gt;User Input. Choose Driver by key integer&lt;/li&gt;&lt;li&gt;Display insurance status from Driver.txt file.&amp;nbsp;&lt;/li&gt;&lt;li&gt;If Active. End&lt;/li&gt;&lt;li&gt;If not active, open DriverInsurance.txt, find the driver insurance detail by driver id. Display the detail.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Ask if it has been renewed.(Y/N)&lt;/li&gt;&lt;li&gt;If &quot;N&quot;. End&lt;/li&gt;&lt;li&gt;If &quot;Y&quot;. ask user to key in updated insurance detail and update the info in DriverInsurance.txt.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-137">
