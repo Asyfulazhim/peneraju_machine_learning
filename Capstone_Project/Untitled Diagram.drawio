@@ -1,12 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T15:50:04.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0" etag="DJqqzJLtiM0DcT8qQTdq" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-05T16:35:28.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0" etag="tLRqw3zWePRSBR00_FhE" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1146" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1102" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--17" value="Driver.txt" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" collapsed="1">
-          <mxGeometry x="740" y="90" width="160" height="26" as="geometry">
-            <mxRectangle x="740" y="90" width="160" height="200" as="alternateBounds" />
+          <mxGeometry x="940" y="82" width="160" height="26" as="geometry">
+            <mxRectangle x="940" y="82" width="160" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-16" value="ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--17">
@@ -37,8 +37,8 @@
           <mxGeometry y="174" width="160" height="16" as="geometry" />
         </mxCell>
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-25" value="Car.txt" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="20" width="160" height="26" as="geometry">
-            <mxRectangle x="240" y="50" width="160" height="200" as="alternateBounds" />
+          <mxGeometry x="940" y="20" width="160" height="26" as="geometry">
+            <mxRectangle x="940" y="20" width="160" height="210" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-26" value="Plate No" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-25">
@@ -62,14 +62,17 @@
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-32" value="Insurace Expiry Date" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-25">
           <mxGeometry y="146" width="160" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-131" value="Status (Active / Not Active)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-25">
+          <mxGeometry y="166" width="160" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-33" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-25">
-          <mxGeometry y="166" width="160" height="8" as="geometry" />
+          <mxGeometry y="186" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-34" value="Read-Only" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-25">
-          <mxGeometry y="174" width="160" height="16" as="geometry" />
+          <mxGeometry y="194" width="160" height="16" as="geometry" />
         </mxCell>
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-35" value="DriverInsurance.txt" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="240" width="160" height="26" as="geometry">
+          <mxGeometry x="940" y="220" width="160" height="26" as="geometry">
             <mxRectangle x="750" y="70" width="160" height="300" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -116,8 +119,8 @@
           <mxGeometry y="274" width="160" height="16" as="geometry" />
         </mxCell>
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-45" value="CarInsurance.txt" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="170" width="160" height="26" as="geometry">
-            <mxRectangle x="600" y="50" width="160" height="300" as="alternateBounds" />
+          <mxGeometry x="940" y="150" width="160" height="26" as="geometry">
+            <mxRectangle x="740" y="170" width="160" height="300" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-46" value="Plate No" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-45">
@@ -163,7 +166,7 @@
           <mxGeometry y="274" width="160" height="16" as="geometry" />
         </mxCell>
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-65" value="BookingID.txt" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="400" width="160" height="26" as="geometry">
+          <mxGeometry x="940" y="360" width="160" height="26" as="geometry">
             <mxRectangle x="770" y="460" width="160" height="180" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -192,7 +195,7 @@
           <mxGeometry y="154" width="160" height="16" as="geometry" />
         </mxCell>
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-103" value="ClaimInsurance.txt" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="320" width="160" height="26" as="geometry">
+          <mxGeometry x="940" y="290" width="160" height="26" as="geometry">
             <mxRectangle x="750" y="370" width="160" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -222,6 +225,48 @@
         </mxCell>
         <mxCell id="LjltIJ_5xy5s9-dVVkUB-117" value="Write / Append" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-103">
           <mxGeometry y="174" width="160" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-121" value="Main Menu" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="30" width="180" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-122" value="0 - Exit&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-121">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-123" value="1 - Create Car Insurance" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-121">
+          <mxGeometry y="52" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-124" value="2 - Create Driver Insurance" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-121">
+          <mxGeometry y="78" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-125" value="3 - Claim Insurance" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-121">
+          <mxGeometry y="104" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-136" value="4 - Invoice Insurance Claim" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-121">
+          <mxGeometry y="130" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-126" value="1 - Create Car Insurance" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="244" width="220" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-127" value="&lt;ul&gt;&lt;li&gt;Open Car.txt file&lt;/li&gt;&lt;li&gt;Read file and display at terminal&amp;nbsp;&lt;/li&gt;&lt;li&gt;User Input. Choose car by key integer&lt;/li&gt;&lt;li&gt;Display insurance status from Car.txt file.&amp;nbsp;&lt;/li&gt;&lt;li&gt;If Active. End&lt;/li&gt;&lt;li&gt;If not active, open CarInsurance.txt, find the car insurance detail by car id. Display the detail.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Ask if it has been renewed.(Y/N)&lt;/li&gt;&lt;li&gt;If &quot;N&quot;. End&lt;/li&gt;&lt;li&gt;If &quot;Y&quot;. ask user to key in updated insurance detail and update the info in CarInsurance.txt.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-126">
+          <mxGeometry y="26" width="220" height="314" as="geometry" />
+        </mxCell>
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-132" value="2- Create Driver Insurance" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="244" width="220" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-133" value="&lt;ul&gt;&lt;li&gt;Open Driver.txt file&lt;/li&gt;&lt;li&gt;Read file and display at terminal&amp;nbsp;&lt;/li&gt;&lt;li&gt;User Input. Choose Driver by key integer&lt;/li&gt;&lt;li&gt;Display insurance status from Driver.txt file.&amp;nbsp;&lt;/li&gt;&lt;li&gt;If Active. End&lt;/li&gt;&lt;li&gt;If not active, open DriverInsurance.txt, find the driver insurance detail by driver id. Display the detail.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Ask if it has been renewed.(Y/N)&lt;/li&gt;&lt;li&gt;If &quot;N&quot;. End&lt;/li&gt;&lt;li&gt;If &quot;Y&quot;. ask user to key in updated insurance detail and update the info in DriverInsurance.txt.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-132">
+          <mxGeometry y="26" width="220" height="314" as="geometry" />
+        </mxCell>
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-134" value="3 - Claim Insurance" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="600" width="220" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-135" value="&lt;ul&gt;&lt;li&gt;Open BookngID.txt file&lt;/li&gt;&lt;li&gt;Read file and display at terminal&amp;nbsp;&lt;/li&gt;&lt;li&gt;User input. Choose Booking id by key in integer.&amp;nbsp;&lt;/li&gt;&lt;li&gt;From booking ID detail, find car id and Driver id&lt;/li&gt;&lt;li&gt;open CarInsurance.txt and DriverInsurance.txt. Find claim amount for car and driver.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Find Total Amount.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Update and append details into ClaimInsurance.txt file&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-134">
+          <mxGeometry y="26" width="220" height="314" as="geometry" />
+        </mxCell>
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-137" value="2- Create Driver Insurance" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="600" width="220" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="LjltIJ_5xy5s9-dVVkUB-138" value="&lt;ul&gt;&lt;li&gt;Open Driver.txt file&lt;/li&gt;&lt;li&gt;Read file and display at terminal&amp;nbsp;&lt;/li&gt;&lt;li&gt;User Input. Choose Driver by key integer&lt;/li&gt;&lt;li&gt;Display insurance status from Driver.txt file.&amp;nbsp;&lt;/li&gt;&lt;li&gt;If Active. End&lt;/li&gt;&lt;li&gt;If not active, open DriverInsurance.txt, find the driver insurance detail by driver id. Display the detail.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Ask if it has been renewed.(Y/N)&lt;/li&gt;&lt;li&gt;If &quot;N&quot;. End&lt;/li&gt;&lt;li&gt;If &quot;Y&quot;. ask user to key in updated insurance detail and update the info in DriverInsurance.txt.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LjltIJ_5xy5s9-dVVkUB-137">
+          <mxGeometry y="26" width="220" height="314" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
