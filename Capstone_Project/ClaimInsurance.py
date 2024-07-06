@@ -141,18 +141,21 @@ def printResit (claimInsurancefile):
     try:
         with open(claimInsurancefile, 'rt') as filehandler:
             lines = filehandler.readlines()
+        
+        print("\nInvoice Summary:\n")
         for index,line in enumerate(lines):
             parts = line.strip().split("|")
             if len(parts) == 6:
                 BookingDate, CarPlate, carClaim, DriverID, driverClaim, totalClaim = parts
                 if(index == 0):
-                    print(f"{"No:":5}{BookingDate:15}{CarPlate:>10}{carClaim:>22}{DriverID:>12}{driverClaim:>25}{totalClaim:>20}")
+                    print(f"{"No:":5}{BookingDate:15}{CarPlate:>10}{carClaim:>25}{DriverID:>12}{driverClaim:>25}{totalClaim:>20}")
                     print("=" * 110)
                 else:
                     CarPlate = CarPlate.strip()
-                    print(f"{index:<5}{BookingDate:15}{CarPlate:>10}{carClaim:>22}{DriverID:>12}{driverClaim:>25}{totalClaim:>20}")
+                    print(f"{index:<5}{BookingDate:15}{CarPlate:>10}{carClaim:>25}{DriverID:>12}{driverClaim:>25}{totalClaim:>20}")
             else:
                 print(f"Skipping line {index+1} due to incorrect format: {line.strip()}")
+        print("")
         time.sleep(2)
     except Exception as e:
         print("Something went wrong when we read from the file", e)
