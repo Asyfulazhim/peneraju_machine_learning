@@ -1,0 +1,14 @@
+| Car Plate No | Make | Model | Year | Insurance Company | Policy Number | VIN | Coverage Type | Premium Amount | Status | Expiry Date | Claim Amount |
+| WC 405L | Toyota | Corolla | 2021 | ABC Insurance | 12345ABC | 1HGBH41JXMN109186 | Comprehensive | 1200 | Active | 2025-05-01 | 3000 |
+| WS 345 | Ford | Mustang | 2019 | XYZ Insurance | 54321XYZ | 1ZVBP8EM4E5300000 | Third Party | 1500 | Not Active | 2024-04-15 | 2500 |
+| WV 798 L | Honda | Civic | 2022 | ABC Insurance | 67890ABC | 2HGFG128X8H500000 | Comprehensive | 1100 | Active | 2025-06-01 | 4000 |
+| AB 123 C | Toyota | Corolla | 2021 | ABC Insurance | 12345ABC | 1HGBH41JXMN109186 | Comprehensive | 1200 | Active | 2025-05-01 | 3000 |
+| XY 987 Z | Ford | Mustang | 2019 | XYZ Insurance | 54321XYZ | 1ZVBP8EM4E5300000 | Third Party | 1500 | Active | 2025-04-15 | 5000 |
+| LM 456 K | Honda | Accord | 2020 | DEF Insurance | 98765DEF | 1HGCM82633A123456 | Comprehensive | 1400 | Not Active | 2024-07-01 | 2000 |
+| GH 321 V | Chevrolet | Malibu | 2018 | GHI Insurance | 56789GHI | 1G1ZC5E18GF123456 | Third Party | 1300 | Not Active | 2025-03-01 | 2800 |
+| RT 654 W | BMW | 3 Series | 2022 | ABC Insurance | 67890ABC | WBA8E9G56GNU123456 | Comprehensive | 1500 | Active | 2025-08-01 | 1200 |
+| UV 789 X | Audi | A4 | 2021 | JKL Insurance | 34567JKL | WAUBFAFL1EN123456 | Comprehensive | 1600 | Active | 2025-09-01 | 3000 |
+| PO 111 Q | Mercedes-Benz | C-Class | 2019 | MNO Insurance | 12345MNO | WDDGF8ABXDA123456 | Third Party | 1700 | Not Active | 2023-10-01 | 2500 |
+| JK 222 M | Nissan | Altima | 2020 | PQR Insurance | 23456PQR | 1N4AL3AP9GC123456 | Comprehensive | 1200 | Active | 2025-11-01 | 1200 |
+| QW 333 R | Hyundai | Elantra | 2021 | STU Insurance | 34567STU | KMHDH4AE7BU123456 | Comprehensive | 1300 | Active | 2025-12-01 | 2500 |
+| EF 444 S | Kia | Optima | 2022 | VWX Insurance | 45678VWX | 5XXGN4A70DG123456 | Comprehensive | 1400 | Active | 2025-08-01 | 1200 |

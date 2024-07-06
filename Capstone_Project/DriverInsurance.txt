@@ -1,12 +1,11 @@
-| Driver ID | Name           | License Number | Insurance Company | Policy Number   | Coverage Type    | Premium Amount | Expiry Date | Car ID | Claim Amount   |
-|-----------|----------------|----------------|-------------------|-----------------|------------------|----------------|-------------|--------|----------------|
-| 1         | John Doe       | D12345678      | ABC Insurance     | ABCD1234        | Comprehensive    | $500/year      | 2025-06-30  | 1      | $2,000         |
-| 2         | Jane Smith     | D87654321      | XYZ Insurance     | XYZD5678        | Third Party Only | $400/year      | 2024-12-15  | 2      | $1,500         |
-| 3         | Robert Brown   | D11223344      | DEF Insurance     | DEFD1122        | Comprehensive    | $550/year      | 2026-03-20  | 3      | $2,500         |
-| 4         | Emily Davis    | D44332211      | GHI Insurance     | GHID4433        | Third Party Only | $350/year      | 2024-09-10  | 4      | $1,000         |
-| 5         | Michael Wilson | D55667788      | JKL Insurance     | JKLD5566        | Comprehensive    | $600/year      | 2027-01-05  | 5      | $3,000         |
-| 6         | Sarah Johnson  | D99887766      | MNO Insurance     | MNOD9988        | Third Party Only | $450/year      | 2025-07-22  | 6      | $1,800         |
-| 7         | David Lee      | D66554433      | PQR Insurance     | PQRD6655        | Comprehensive    | $520/year      | 2025-11-08  | 7      | $2,200         |
-| 8         | Laura Martinez | D22334455      | STU Insurance     | STUD2233        | Third Party Only | $380/year      | 2024-05-19  | 8      | $1,200         |
-| 9         | James Anderson | D88990077      | VWX Insurance     | VWXD8899        | Comprehensive    | $570/year      | 2026-08-25  | 9      | $2,700         |
-| 10        | Mary Garcia    | D77665544      | YZA Insurance     | YZAD7766        | Comprehensive    | $620/year      | 2027-04-13  | 10     | $3,200         |
+ID | Name | Age | Gender | License Number | Insurance Company | Policy Number | Coverage Type | Premium amount | Status | Expiry Date | Claim Amount
+DR001 | John Doe | 30 | Male | DL12345678 | ABC Insurance | 12345ABC | Comprehensive | 1200 | Active | 2025-12-31 | 3000
+DR002 | Jane Smith | 28 | Female | DL23456789 | XYZ Insurance | 54321XYZ | Third Party | 1500 | Active | 2024-11-30 | 2500
+DR003 | Robert Brown | 45 | Male | DL34567890 | ABC Insurance | 67890ABC | Comprehensive | 1100 | Inactive | 2023-08-15 | 0
+DR004 | Emily Johnson | 35 | Female | DL45678901 | ABC Insurance | 12345ABC | Comprehensive | 1200 | Active | 2026-05-20 | 0
+DR005 | Michael Davis | 40 | Male | DL56789012 | XYZ Insurance | 54321XYZ | Third Party | 1500 | Active | 2025-07-10 | 5000
+DR006 | Sarah Wilson | 32 | Female | DL67890123 | DEF Insurance | 98765DEF | Comprehensive | 1400 | Active | 2024-04-25 | 2000
+DR007 | David Miller | 50 | Male | DL78901234 | GHI Insurance | 56789GHI | Third Party | 1300 | Inactive | 2023-09-14 | 0
+DR008 | Laura Martinez | 29 | Female | DL89012345 | ABC Insurance | 67890ABC | Comprehensive | 1500 | Active | 2025-01-05 | 1200
+DR009 | James Anderson | 38 | Male | DL90123456 | JKL Insurance| 34567JKL | Comprehensive | 1600 | Active | 2026-02-28 | 0
+DR010 | Linda Thomas | 33 | Female | DL01234567 | MNO Insurance | 12345MNO | Third Party | 1700 | Active| 2025-06-16 | 2500

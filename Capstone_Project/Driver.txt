@@ -1,0 +1,16 @@
+Id | Name | Age | Gender | Driving license | Insurance status | Expired date
+DR001 | John Doe | 30 | Male | DL12345678 | Active | 2025-12-31
+DR002 | Jane Smith | 28 | Female | DL23456789 | Active | 2024-11-30
+DR003 | Robert Brown | 45 | Male | DL34567890 | Inactive | 2023-08-15
+DR004 | Emily Johnson | 35 | Female | DL45678901 | Active | 2026-05-20
+DR005 | Michael Davis | 40 | Male | DL56789012 | Active | 2025-07-10
+DR006 | Sarah Wilson | 32 | Female | DL67890123 | Active | 2024-04-25
+DR007 | David Miller | 50 | Male | DL78901234 | Inactive | 2023-09-14
+DR008 | Laura Martinez | 29 | Female | DL89012345 | Active | 2025-01-05
+DR009 | James Anderson | 38 | Male | DL90123456 | Active | 2026-02-28
+DR010 | Linda Thomas | 33 | Female | DL01234567 | Active | 2025-06-16
+DR011 | Chris Jackson | 27 | Male | DL12345679 | Active | 2024-10-11
+DR012 | Karen White | 42 | Female | DL23456780 | Inactive | 2023-12-20
+DR013 | Brian Harris | 36 | Male | DL34567891 | Active | 2025-03-30
+DR014 | Lisa Clark | 31 | Female | DL45678902 | Active | 2024-09-09
+DR015 | Kevin Lewis | 48 | Male | DL56789013 | Inactive | 2023-05-06
