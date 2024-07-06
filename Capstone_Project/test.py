@@ -1,9 +1,9 @@
-bookingfile = "Car.txt"
+bookingfile = "DriverInsurance.txt"
 with open(bookingfile, "rt") as file:
     booking = file.read()
     file.close()
 
-    booking = booking.replace("Not Active","Inactive")
+    booking = booking.replace("  ","")
     with open (bookingfile, "w")as file:
         file.write(booking)
         

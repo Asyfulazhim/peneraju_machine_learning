@@ -1,4 +1,4 @@
-ID | Name | Age | Gender | License Number | Insurance Company | Policy Number | Coverage Type | Premium amount | Status | Expiry Date | Claim Amount
+ID | Name | Age | Gender | Driving license | Insurance Company | Policy Number | Coverage Type | Premium amount | Status | Expiry Date | Claim Amount
 DR001 | John Doe | 30 | Male | DL12345678 | ABC Insurance | 12345ABC | Comprehensive | 1200 | Active | 2025-12-31 | 3000
 DR002 | Jane Smith | 28 | Female | DL23456789 | XYZ Insurance | 54321XYZ | Third Party | 1500 | Active | 2024-11-30 | 2500
 DR003 | Robert Brown | 45 | Male | DL34567890 | ABC Insurance | 67890ABC | Comprehensive | 1100 | Inactive | 2023-08-15 | 0
@@ -7,5 +7,10 @@ DR005 | Michael Davis | 40 | Male | DL56789012 | XYZ Insurance | 54321XYZ | Thir
 DR006 | Sarah Wilson | 32 | Female | DL67890123 | DEF Insurance | 98765DEF | Comprehensive | 1400 | Active | 2024-04-25 | 2000
 DR007 | David Miller | 50 | Male | DL78901234 | GHI Insurance | 56789GHI | Third Party | 1300 | Inactive | 2023-09-14 | 0
 DR008 | Laura Martinez | 29 | Female | DL89012345 | ABC Insurance | 67890ABC | Comprehensive | 1500 | Active | 2025-01-05 | 1200
-DR009 | James Anderson | 38 | Male | DL90123456 | JKL Insurance| 34567JKL | Comprehensive | 1600 | Active | 2026-02-28 | 0
-DR010 | Linda Thomas | 33 | Female | DL01234567 | MNO Insurance | 12345MNO | Third Party | 1700 | Active| 2025-06-16 | 2500
+DR009 | James Anderson | 38 | Male | DL90123456 | JKL Insurance | 34567JKL | Comprehensive | 1600 | Active | 2026-02-28 | 0
+DR010 | Linda Thomas | 33 | Female | DL01234567 | MNO Insurance | 12345MNO | Third Party | 1700 | Active | 2025-06-16 | 2500
+DR011 | Chris Jackson | 27| Male | DL12345679 | PQR Insurance | 98765PQR | Comprehensive | 1800 | Active | 2024-10-11 | 1500
+DR012 | Karen White | 42 | Female | DL23456780 | STU Insurance | 56789STU | Third Party | 1400 | Inactive | 2023-12-20 | 0
+DR013 | Brian Harris | 36 | Male | DL34567891 | VWX Insurance | 34567VWX | Comprehensive | 1300 | Active | 2025-03-30 | 4000
+DR014 | Lisa Clark | 31 | Female | DL45678902 | YZA Insurance | 12345YZA | Comprehensive | 1200 | Active | 2024-09-09 | 0
+DR015 | Kevin Lewis | 48 | Male | DL56789013 | BCD Insurance | 67890BCD | Third Party | 1100 | Inactive | 2023-05-06 | 0
