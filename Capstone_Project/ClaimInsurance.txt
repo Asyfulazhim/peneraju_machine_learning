@@ -1,0 +1,12 @@
+| Claim ID | Date       | Vehicle ID | Make        | Model        | Year | VIN              | Vehicle Claim Amount | Driver ID | Driver Name    | License Number | Driver Claim Amount | Total Claim Amount |
+|----------|------------|------------|-------------|--------------|------|------------------|----------------------|-----------|----------------|----------------|---------------------|--------------------|
+| 1        | 2024-07-01 | 1          | Toyota      | Corolla      | 2020 | 1HGBH41JXMN109186 | $3,000               | 1         | John Doe       | D12345678      | $1,000              | $4,000             |
+| 2        | 2024-07-05 | 3          | Ford        | Focus        | 2021 | 3HGBH41JXMN109188 | $2,500               | 3         | Robert Brown   | D11223344      | $1,000              | $3,500             |
+| 3        | 2024-07-10 | 5          | Chevrolet   | Malibu       | 2022 | 5HGBH41JXMN109190 | $4,000               | 5         | Michael Wilson | D55667788      | $1,500              | $5,500             |
+| 4        | 2024-07-15 | 7          | Kia         | Optima       | 2020 | 7HGBH41JXMN109192 | $2,800               | 7         | David Lee      | D66554433      | $1,200              | $4,000             |
+| 5        | 2024-07-20 | 10         | Mazda       | 3            | 2022 | 0HGBH41JXMN109195 | $5,000               | 10        | Mary Garcia    | D77665544      | $1,500              | $6,500             |
+| 6        | 2024-07-22 | 2          | Honda       | Civic        | 2019 | 2HGBH41JXMN109187 | $2,000               | 2         | Jane Smith     | D87654321      | $800                | $2,800             |
+| 7        | 2024-07-25 | 4          | Nissan      | Altima       | 2018 | 4HGBH41JXMN109189 | $1,500               | 4         | Emily Davis    | D44332211      | $500                | $2,000             |
+| 8        | 2024-07-27 | 8          | Volkswagen  | Jetta        | 2017 | 8HGBH41JXMN109193 | $1,200               | 8         | Laura Martinez | D22334455      | $400                | $1,600             |
+| 9        | 2024-07-29 | 9          | Subaru      | Impreza      | 2021 | 9HGBH41JXMN109194 | $3,000               | 9         | James Anderson | D88990077      | $1,000              | $4,000             |
+| 10       | 2024-07-31 | 6          | Hyundai     | Elantra      | 2019 | 6HGBH41JXMN109191 | $2,500               | 6         | Sarah Johnson  | D99887766      | $1,000              | $3,500             |

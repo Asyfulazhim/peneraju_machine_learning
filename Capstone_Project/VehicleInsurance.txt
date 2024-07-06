@@ -1,0 +1,12 @@
+| Car ID | Make        | Model        | Year | Insurance Company | Policy Number   | VIN              | Coverage Type    | Premium Amount | Expiry Date | Driver Insurance | Customer Insurance | Claim Amount   |
+|--------|-------------|--------------|------|-------------------|-----------------|------------------|------------------|----------------|-------------|------------------|--------------------|----------------|
+| 1      | Toyota      | Corolla      | 2020 | ABC Insurance     | ABC123456       | 1HGBH41JXMN109186 | Comprehensive    | $1200/year     | 2025-06-30  | Yes              | Yes                | $5,000         |
+| 2      | Honda       | Civic        | 2019 | XYZ Insurance     | XYZ987654       | 2HGBH41JXMN109187 | Third Party Only | $900/year      | 2024-12-15  | Yes              | Yes                | $3,000         |
+| 3      | Ford        | Focus        | 2021 | DEF Insurance     | DEF456789       | 3HGBH41JXMN109188 | Comprehensive    | $1300/year     | 2026-03-20  | Yes              | Yes                | $4,500         |
+| 4      | Nissan      | Altima       | 2018 | GHI Insurance     | GHI321654       | 4HGBH41JXMN109189 | Third Party Only | $850/year      | 2024-09-10  | Yes              | Yes                | $2,500         |
+| 5      | Chevrolet   | Malibu       | 2022 | JKL Insurance     | JKL654321       | 5HGBH41JXMN109190 | Comprehensive    | $1400/year     | 2027-01-05  | Yes              | Yes                | $6,000         |
+| 6      | Hyundai     | Elantra      | 2019 | MNO Insurance     | MNO987321       | 6HGBH41JXMN109191 | Third Party Only | $950/year      | 2025-07-22  | Yes              | Yes                | $3,500         |
+| 7      | Kia         | Optima       | 2020 | PQR Insurance     | PQR123987       | 7HGBH41JXMN109192 | Comprehensive    | $1250/year     | 2025-11-08  | Yes              | Yes                | $4,000         |
+| 8      | Volkswagen  | Jetta        | 2017 | STU Insurance     | STU654987       | 8HGBH41JXMN109193 | Third Party Only | $800/year      | 2024-05-19  | Yes              | Yes                | $2,000         |
+| 9      | Subaru      | Impreza      | 2021 | VWX Insurance     | VWX321987       | 9HGBH41JXMN109194 | Comprehensive    | $1350/year     | 2026-08-25  | Yes              | Yes                | $5,500         |
+| 10     | Mazda       | 3            | 2022 | YZA Insurance     | YZA987654       | 0HGBH41JXMN109195 | Comprehensive    | $1450/year     | 2027-04-13  | Yes              | Yes                | $6,500         |
