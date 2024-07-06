@@ -6,3 +6,4 @@ Date | Car Plate | Car Claim Amount | Driver ID | Driver Claim Amount | Total Cl
  2024-07-03 |  WV 798 L  | 4000 |  DR003  | 0 | 4000
  2024-07-06 |  LM 456 K  | 0 |  DR006  | 2000 | 2000
  2024-07-04 |  AB 123 C  | 3000 |  DR004  | 0 | 3000
+ 2024-07-06 |  LM 456 K  | 0 |  DR006  | 2000 | 2000
