@@ -57,7 +57,7 @@ class Resistor:
         return int(self.color_values[colors[0]]) * 10 + int(self.color_values[colors[1]])
     
     def get_resistance_3(self, colors):
-        return int(self.color_values[colors[0]]) * 10 + int(self.color_values[colors[1]]) * 10 + int(self.color_values[colors[2]]) * 10 * 10
+        return int(self.color_values[colors[0]]) * 10 + int(self.color_values[colors[1]])
 
 colors1 = "brown-green"
 colors2 = "brown-green-violet"

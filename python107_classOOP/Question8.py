@@ -36,7 +36,10 @@ class Inventory:
         }
 
     def checkItem(self, id):
-        return self.data.get(id)
+        if id in self.data:
+            return self.data[id]
+        else:
+            return "Item not found"
 
     def addItem(self, id, name, availableQuantity, price):
         if id in self.data:
@@ -61,7 +64,10 @@ class Inventory:
             return "Item not found"
 
     def inventoryList(self):
-        return self.data
+        print("\nInventory list: ")
+        for items in self.data:
+            print(items, self.data[items])
+        print("")
 
 
 def main():
@@ -76,26 +82,37 @@ def main():
         print("|  3 - Update Item     |")
         print("|  4 - Inventory List  |")
         print("------------------------")
-        choice = int(input("What is your purpose?: "))
+        choice = int(input("Enter choice number: "))
 
         if choice == 0:
             print("Thank You!")
             break
         elif choice == 4:
-            print(item1.inventoryList())
-        else:
+            item1.inventoryList()
+        elif choice == 1 or choice == 2 or choice == 3:
             id = input("Enter Item ID: ")
             if choice == 1:
                 print(item1.checkItem(id))
             else:
-                name = input("Enter Item Name: ")
-                availableQuantity = int(input("Enter Item Available Quantity: "))
-                price = float(input("Enter Item Price: "))
                 if choice == 2:
-                    print(item1.addItem(id, name, availableQuantity, price))
-                elif choice == 3:
-                    print(item1.updateItem(id, name, availableQuantity, price))
+                    if id in item1.data:
+                        print("Item already exists")
+                    else:
+                        name = input("Enter Item Name: ")
+                        availableQuantity = int(input("Enter Item Available Quantity: "))
+                        price = float(input("Enter Item Price: "))
+                        print(item1.addItem(id, name, availableQuantity, price))
 
+                elif choice == 3:
+                    if id in item1.data:
+                        name = input("Enter Item Name: ")
+                        availableQuantity = int(input("Enter Item Available Quantity: "))
+                        price = float(input("Enter Item Price: "))
+                        print(item1.updateItem(id, name, availableQuantity, price))
+                    else:
+                        print("Item not found")
+        else:
+            print("Invalid Choice")
 
 if __name__ == "__main__":
     main()
