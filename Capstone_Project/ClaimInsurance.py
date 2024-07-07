@@ -22,7 +22,7 @@ def doMenu (carfile,driverfile,carinsurancefile,driverinsurancefile,bookingfile,
         print("|  1 - Create Car Insurance     |")
         print("|  2 - Create Driver Insurance  |")
         print("|  3 - Claim Insurance          |")
-        print("|  4 - Print Resit              |")
+        print("|  4 - Print Receipt            |")
         print("---------------------------------")
         choice = keyboardInput(int, "Enter your choice: ", "Invalid choice")
         print("")
@@ -43,9 +43,46 @@ def readbookingfile(bookingfile):
         print (booking)
 
 def createCarInsurance(carfile, carinsurancefile):
-    pass
+    try:
+        lines =None
+        with open(carfile, "rt") as filehandler:
+            # read all lines 
+            lines = filehandler.readlines()
+        for index, line in enumerate(lines):
+            car_plate_no, make, model, year, insurance_company, policy_number, vin, coverage_type, premium_amount, status, expiry_date, claim_amount = line.strip().split("|")# strip method remove the last \n (new line) & remove spaces
+            if (index == 0):
+                print(f"{"No.":<4}{car_plate_no:<12}{make:<12}{model:<9}{year:<5}{insurance_company:<19}\
+{policy_number:<14}{vin:<20}{coverage_type:<15}{premium_amount:<16}{status:<10}\
+{expiry_date:<13}{claim_amount:<10}")
+                print("=" * 165)
+            else:
+                print(f"{index:<4}{car_plate_no:<12}{make:<12}{model:<10}{year:<5}{insurance_company:<19}\
+{policy_number:<14}{vin:<20}{coverage_type:<15}{premium_amount:<16}{status:<10}\
+{expiry_date:<13}{claim_amount:<10}")
+
+            #     print(f"{index:<5}{product:40}{int(quantity):>20}{float(price):>20.2f}")
+    except Exception as e: 
+        print("Something went wrong when we print the products:", e)
 def createDriverInsurance(driverfile, driverinsurancefile):
-    pass
+    try:
+        lines =None
+        with open(driverfile, "rt") as filehandler:
+            # read all lines 
+            lines = filehandler.readlines()
+        for index, line in enumerate(lines):
+            driver_id, driver_name, driver_age, driver_gender, license, insurance_company, policy_number,\
+            coverage_type, premium_amount, status, expiry_date, claim_amount = line.strip().split("|")# strip method remove the last \n (new line) & remove spaces
+            if (index == 0):
+                print(f"{"No.":<4}{driver_id:<6}{driver_name:<16}{driver_age:<5}{driver_gender:<8}{license:<18}{insurance_company:<19}\
+{policy_number:<14}{coverage_type:<15}{premium_amount:<16}{status:<10}\
+{expiry_date:<13}{claim_amount:<10}")
+                print("=" * 159)
+            else:
+                print(f"{index:<4}{driver_id:<6}{driver_name:<16}{driver_age:<5}{driver_gender:<8}{license:<18}{insurance_company:<19}\
+{policy_number:<14}{coverage_type:<15}{premium_amount:<16}{status:<10}\
+{expiry_date:<13}{claim_amount:<10}")
+    except Exception as e: 
+        print("Something went wrong when we print the products:", e)
 
 def chooseBokingLine(bookingfile,carinsurancefile,driverinsurancefile, claiminsurancefile):
     verify = True
@@ -149,12 +186,13 @@ def printResit (claimInsurancefile):
                 BookingDate, CarPlate, carClaim, DriverID, driverClaim, totalClaim = parts
                 if(index == 0):
                     print(f"{"No:":5}{BookingDate:15}{CarPlate:>10}{carClaim:>25}{DriverID:>12}{driverClaim:>25}{totalClaim:>20}")
-                    print("=" * 110)
+                    print("=" * 113)
                 else:
                     CarPlate = CarPlate.strip()
                     print(f"{index:<5}{BookingDate:15}{CarPlate:>10}{carClaim:>25}{DriverID:>12}{driverClaim:>25}{totalClaim:>20}")
             else:
                 print(f"Skipping line {index+1} due to incorrect format: {line.strip()}")
+        print(" " * 85, "Total", "RMXXXXXX")
         print("")
         time.sleep(2)
     except Exception as e:
