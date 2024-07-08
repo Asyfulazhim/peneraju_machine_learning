@@ -6,10 +6,10 @@ class State:
 		
 	def get_city_list(self) :
 		return self.__city_list.copy()
-		
+
 	def add_city_list(self,city) :
 		self.__city_list.append(city)
-		
+
 	def get_name(self):
 		return self.__name
 		
