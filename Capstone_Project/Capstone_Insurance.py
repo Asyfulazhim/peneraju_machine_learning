@@ -36,20 +36,7 @@ def doMenu (carfile,driverfile,carinsurancefile,driverinsurancefile,bookingfile,
             chooseBokingLine(bookingfile,carinsurancefile,driverinsurancefile, claiminsurancefile)            
         elif choice == 4:
             printResit(claiminsurancefile)
-
-def readbookingfile(bookingfile):
-    with open (bookingfile, "r") as file:
-        booking = file.readlines()
-    
-    for index, line in enumerate(booking):
-        bookingID, custID, carPlate, driverID, driverName, bookingDate = line.strip().split(" | ")
-        if (index == 0):
-            print(f"{"No.":<4}{bookingID:<12}{custID:<13}{carPlate:<15}{driverID:<12}{driverName:<18}{bookingDate:<15}")
-            print("=" * 85)
-        else:
-            print(f"{index:<4}{bookingID:<12}{custID:<13}{carPlate:<15}{driverID:<12}{driverName:<18}{bookingDate:<15}")
-    print("-" * 90)
-    print()     
+        
 
 def printCar(carfile, carInsurancefile):
     try:
@@ -230,6 +217,20 @@ def chooseBokingLine(bookingfile,carinsurancefile,driverinsurancefile, claiminsu
         except Exception as e:
             print("Error edit product:", e)
 
+def readbookingfile(bookingfile):
+    with open (bookingfile, "r") as file:
+        booking = file.readlines()
+    
+    for index, line in enumerate(booking):
+        bookingID, custID, carPlate, driverID, driverName, bookingDate = line.strip().split(" | ")
+        if (index == 0):
+            print(f"{"No.":<4}{bookingID:<12}{custID:<13}{carPlate:<15}{driverID:<12}{driverName:<18}{bookingDate:<15}")
+            print("=" * 85)
+        else:
+            print(f"{index:<4}{bookingID:<12}{custID:<13}{carPlate:<15}{driverID:<12}{driverName:<18}{bookingDate:<15}")
+    print("-" * 90)
+    print()
+    
 def findCarInsurance (carinsurancefile,CarPlate):
     CarPlate = CarPlate.replace(" ","")
     #carinsurancefile = "CarInsurance.txt"
