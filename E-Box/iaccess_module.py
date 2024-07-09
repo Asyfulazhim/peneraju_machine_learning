@@ -27,14 +27,14 @@ Fhgf90
 
 '''
 
-# wordsstring = input()
-# splitchar = input()
-# splittedwords = wordsstring.split(splitchar)
-# for i in range(len(splittedwords)):
-#     splittedwords[i] = splittedwords[i].capitalize()
-# for word in splittedwords:
-#     print(word)
-#print(splittedwords)
+wordsstring = input()
+splitchar = input()
+splittedwords = wordsstring.split(splitchar)
+for i in range(len(splittedwords)):
+    splittedwords[i] = splittedwords[i].capitalize()
+for word in splittedwords:
+    print(word)
+print(splittedwords)
 
 '''
 Module: Continuous Prime Sum
