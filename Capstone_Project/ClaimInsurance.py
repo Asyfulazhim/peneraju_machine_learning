@@ -104,6 +104,10 @@ def chooseBokingLine(bookingfile,carinsurancefile,driverinsurancefile, claiminsu
             #print(data)
 
             index = keyboardInput(int,"Plesase insert line number: ", "Number must be integer")
+            while index == 0:
+                print("Invalid!!")
+                index = keyboardInput(int,"Plesase insert line number again: ", "Number must be integer and not zero")
+                
             print("\nPlese check the detail carefully...")
             BookingID, CustomerID, CarPlate, DriverID, DriverName, BookingDate = data[index]
             print(f"\nBooking ID: {BookingID}\nCustomer ID: {CustomerID}\nPlate No: {CarPlate}\nDriver ID: {DriverID}\nName: {DriverName}\nBooking Date: {BookingDate}")
