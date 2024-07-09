@@ -37,7 +37,6 @@ def doMenu (carfile,driverfile,carinsurancefile,driverinsurancefile,bookingfile,
         elif choice == 4:
             printResit(claiminsurancefile)
         
-
 def printCar(carfile, carInsurancefile):
     try:
         lines =None
@@ -230,7 +229,7 @@ def readbookingfile(bookingfile):
             print(f"{index:<4}{bookingID:<12}{custID:<13}{carPlate:<15}{driverID:<12}{driverName:<18}{bookingDate:<15}")
     print("-" * 90)
     print()
-    
+
 def findCarInsurance (carinsurancefile,CarPlate):
     CarPlate = CarPlate.replace(" ","")
     #carinsurancefile = "CarInsurance.txt"
