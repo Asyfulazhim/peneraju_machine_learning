@@ -1,87 +1,96 @@
 # Question 1
-# class Shape:
-#     def __init__(self):
-#         pass
+class Shape:
+    def __init__(self):
+        pass
+    
+    def display_parameters(self):
+        pass
 
-#     def area(self):
-#         pass
+class CalAreaSquare(Shape):
+    def __init__(self, side):
+        super().__init__()
+        self.side = side
+    
+    def display_parameters(self):
+        print(f"Length of Square : {self.side}")
+    
+    def area(self):
+        return self.side ** 2
 
+class CalAreaRectangle(Shape):
+    def __init__(self, length, width):
+        super().__init__()
+        self.length = length
+        self.width = width
+    
+    def display_parameters(self):
+        print(f"Length of Rectangle : {self.length}")
+        print(f"Breadth of Rectangle : {self.width}")
+    
+    def area(self):
+        return self.length * self.width
 
-# class CalAreaSquare(Shape):
-#     def __init__(self, side):
-#         self.side = side
+class CalAreaTriangle(Shape):
+    def __init__(self, base, height):
+        super().__init__()
+        self.base = base
+        self.height = height
+    
+    def display_parameters(self):
+        print(f"Base of Triangle : {self.base}")
+        print(f"Height of Triangle : {self.height}")
+    
+    def area(self):
+        return 0.5 * self.base * self.height
 
-#     def area(self):
-#         area = self.side * self.side
-#         print(f"Area of Square : {area}")
+class CalAreaCircle(Shape):
+    def __init__(self, radius):
+        super().__init__()
+        self.radius = radius
+    
+    def display_parameters(self):
+        print(f"Radius of Circle : {self.radius}")
+    
+    def area(self):
+        return 3.14 * (self.radius ** 2)
 
+def main():
+    print("Select an Option")
+    print("1.Square")
+    print("2.Rectangle")
+    print("3.Triangle")
+    print("4.Circle")
+    
+    option = int(input())
+    
+    if option == 1:
+        side = int(input("Enter the length\n"))
+        square = CalAreaSquare(side)
+        square.display_parameters()
+        print(f"Area of Square : {square.area()}")
+    elif option == 2:
+        length = int(input("Enter the length\n"))
+        width = int(input("Enter the breadth\n"))
+        rectangle = CalAreaRectangle(length, width)
+        rectangle.display_parameters()
+        print(f"Area of Rectangle : {rectangle.area()}")
+    elif option == 3:
+        base = int(input("Enter the base\n"))
+        height = int(input("Enter the height\n"))
+        triangle = CalAreaTriangle(base, height)
+        triangle.display_parameters()
+        print(f"Area of Triangle : {triangle.area():.2f}")
+    elif option == 4:
+        radius = int(input("Enter the radius\n"))
+        circle = CalAreaCircle(radius)
+        circle.display_parameters()
+        print(f"Area of Circle : {circle.area():.2f}")
+    else:
+        print("Invalid option. Please enter a valid choice (1/2/3/4).")
 
-# class CalAreaRectangle(Shape):
-#     def __init__(self, length, breadth):
-#         self.length = length
-#         self.breadth = breadth
-
-#     def area(self):
-#         area = self.length * self.breadth
-#         print(f"Area of Rectangle : {area}")
-
-
-# class CalAreaTriangle(Shape):
-#     def __init__(self, base, height):
-#         self.base = base
-#         self.height = height
-
-#     def area(self):
-#         area = 0.5 * self.base * self.height
-#         print(f"Area of Triangle : {area:.2f}")
-
-
-# class CalAreaCircle(Shape):
-#     def __init__(self, radius):
-#         self.radius = radius
-
-#     def area(self):
-#         area = 3.14 * self.radius * self.radius
-#         print(f"Area of Circle : {area:.2f}")
-
-
-# print("Select an Option")
-# print("1.Square")
-# print("2.Rectangle")
-# print("3.Triangle")
-# print("4.Circle")
-# n = int(input())
-# if n == 1:
-#     print("Enter the side")
-#     side = int(input())
-#     print(f"Side of square : {side}")
-#     s = CalAreaSquare(side)
-#     s.area()
-# elif n == 2:
-#     print("Enter the length")
-#     length = int(input())
-#     print("Enter the breadth")
-#     breadth = int(input())
-#     print(f"Length of Rectangle : {length}")
-#     print(f"Breadth of Rectangle : {breadth}")
-#     r = CalAreaRectangle(length, breadth)
-#     r.area()
-# elif n == 3:
-#     print("Enter the base")
-#     base = int(input())
-#     print("Enter the height")
-#     height = int(input())
-#     print(f"Base of Triangle : {base}")
-#     print(f"Height of Triangle : {height}")
-#     t = CalAreaTriangle(base, height)
-#     t.area()
-# elif n == 4:
-#     print("Enter the radius")
-#     radius = int(input())
-#     print(f"Radius of Circle : {radius}")
-#     c = CalAreaCircle(radius)
-#     c.area()
-
+if __name__ == "__main__":
+    main()
+    
 # Question 2
 '''
 Create a base class named Student with the following  member variables / attributes  .
