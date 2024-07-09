@@ -19,7 +19,6 @@ print("1. Enter College address and Display")
 print("2. Enter  the contact details and Display")
 print("3. exit")
 
-
 n = -1
 while n !=3:
     n = int(input("Enter your choice\n"))
