@@ -608,9 +608,31 @@ def reportCompany (carinsurancefile, driverinsurancefile, claiminsurancefile):
             print(f"|{'Active'.center(17)}|{'Expired'.center(18)}|{'Active'.center(18)}|{'Expired'.center(17)}|{'|':>45}")
             print("="*120)
             print(f"|{totalActiveCars.center(17)}|{totalInactiveCar.center(17)} |{totalActiveDriver.center(17)} |{totalInactiveDriver.center(17)}|{totalClaims.center(44)}|")
+            print("-"*75)
+            print(f"|{totalCarsWithInsurance.center(36)}|{totalDriverWithInsurance.center(36)}|{"|":>45}")
             print("-"*120)
-            print(f"|{totalCarsWithInsurance.center(36)}|{totalDriverWithInsurance.center(36)}|{totalClaims.center(44)}|")
-            print("-"*120)
+            
+            # Adding some details
+            print("\nDetails:")
+            print(f"1. Cars: The report shows the status of cars in the insurance system.")
+            print(f"2. There are {totalActiveCars} active car insurance policies and {totalInactiveCar} expired car insurance policies.")
+            print(f"3. Driver: The report also details the driver insurance policies.")
+            print(f"4. There are {totalActiveDriver} active driver insurance policies and {totalInactiveDriver} expired driver insurance policies.")
+            print(f"5. Claim Made: In the current year, a total of {totalClaims} claims have been made under the insurance policies.")
+
+            # Additional summary
+            # print(f"\nSummary:")
+            # print(f"The insurance department has been actively managing the policies with a total of {totalCarsWithInsurance} car insurance policies and {totalDriverWithInsurance} driver")
+            # print(f"insurance policies and {totalDriverWithInsurance} driver insurance policies.")
+            # print(f"Efforts to ensure timely renewals and addressing the claims promptly are reflected in the above statistics.")
+
+            print(f"""
+Summary:
+The insurance department has been actively managing the policies with a total of {totalCarsWithInsurance} car insurance policies 
+and {totalDriverWithInsurance} driver insurance policies. Efforts to ensure timely renewals and addressing the claims promptly 
+are reflected in the above statistics.
+    """)
+
             time.sleep(2)
             print()
             print("\nBack to main menu.....")
