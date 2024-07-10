@@ -1,6 +1,6 @@
 Plate No | Make | Model | Year | VIN | Mileage | Insurance Expiry Date | Status
 WC 405L | Corolla | Toyota | 2021 | 1HGBH41JXMN109186 | 15000 | 2025-05-01 | Active
-WS 345  | Ford | Mustang | 2019 | 1ZVBP8EM4E5300000 | 25000 | 2024-04-15  | inactive
+WS 345  | Ford | Mustang | 2019 | 1ZVBP8EM4E5300000 | 25000 | 2024-04-15 | Inactive
 WV 798 L | Honda | Civic | 2022 | 2HGFG128X8H500000 | 5000 | 2025-06-01 | Active
 AB 123 C | Toyota | Corolla | 2021 | 1HGBH41JXMN109186 | 15000 | 2025-05-01 | Active
 XY 987 Z | Ford | Mustang | 2019 | 1ZVBP8EM4E5300000 | 25000 | 2025-04-15 | Active
