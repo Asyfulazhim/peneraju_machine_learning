@@ -42,23 +42,21 @@ if __name__ == "__main__":
 
 import math
 
-# Get the input list of numbers
-numbers = list(map(float, input().split()))
+nums = input()
+values = list(map(float, nums.split()))   
+#print(values)
 
-# Calculate the sum of the numbers
-total_sum = sum(numbers)
+total = sum(values)
+#print(total)
 
-# Calculate the floor, ceil, and round of the sum
-floor_sum = math.floor(total_sum)
-ceil_sum = math.ceil(total_sum)
-round_sum = round(total_sum)
+floor_sum = math.floor(total)
+ceil_sum = math.ceil(total)
+round_sum = round(total)
 
-# Calculate the differences
-diff1 = floor_sum - ceil_sum
-diff2 = ceil_sum - round_sum
-diff3 = floor_sum - round_sum
+floor_ceil_diff = floor_sum - ceil_sum
+ceil_round_diff = ceil_sum - round_sum
+floor_round_diff = floor_sum - round_sum
 
-# Print the results
-print(f"{diff1:.1f}")
-print(f"{diff2:.1f}")
-print(f"{diff3:.1f}")
+print(float(floor_ceil_diff))
+print(float(ceil_round_diff))
+print(float(floor_round_diff))
