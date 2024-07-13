@@ -1,0 +1,12 @@
+[
+    {
+      "product": "Tele",
+      "quantity": 5,
+      "price": 167.9
+    },
+    {
+     "product": "bike",
+      "quantity": 6,
+      "price": 1678.9
+    }
+]
