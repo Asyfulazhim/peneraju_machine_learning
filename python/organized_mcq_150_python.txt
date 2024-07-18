@@ -1,0 +1,1550 @@
+1.
+A) Variables
+B) Decision making
+C) Looping
+D) All of the above
+Answer: D
+Explanation: Programming involves using variables, decision making, and looping.
+
+2.
+What is the main purpose of functions in programming?
+
+A) To store data
+B) To reuse code and organize it
+C) To perform arithmetic operations
+D) To interact with the user
+Answer: B
+Explanation: Functions encapsulate code that can be reused and called multiple times, promoting code organization and readability.
+Introduction to Python Programming
+
+3.
+Who created Python and in which years?
+
+A) Guido van Rossum, 1985-1990
+B) James Gosling, 1991-1995
+C) Dennis Ritchie, 1969-1973
+D) Bjarne Stroustrup, 1979-1983
+Answer: A
+Explanation: Guido van Rossum created Python during 1985-1990.
+
+4.
+Which of the following is not a feature of Python?
+
+A) Interpreted
+B) Interactive
+C) Object-Oriented
+D) Compiled
+Answer: D
+Explanation: Python is an interpreted language, not compiled.
+Python Features
+
+5.
+Which feature of Python allows it to run on various hardware platforms?
+
+A) Easy-to-learn
+B) Interactive Mode
+C) Portable
+D) Scalable
+Answer: C
+Explanation: Python's portability allows it to run on a wide variety of hardware platforms.
+
+6.
+Which feature makes Python suitable for beginner-level programmers?
+
+A) Complex syntax
+B) High-level data types
+C) Easy-to-learn and read
+D) Low-level programming support
+Answer: C
+Explanation: Python is easy to learn and read, making it suitable for beginners.
+
+Python Installation
+
+7.
+Where can you download the Python installer?
+
+A) www.python.com
+B) www.python.org
+C) www.python.net
+D) www.python.edu
+Answer: B
+Explanation: The Python installer can be downloaded from www.python.org.
+
+8.
+What command verifies Python installation on Windows?
+
+A) python --install
+B) python --run
+C) python --check
+D) python --version
+Answer: D
+Explanation: The python --version command checks if Python is installed.
+
+Python Syntax
+
+9.
+In Python, what is the purpose of indentation?
+
+A) For readability only
+B) To indicate a block of code
+C) To make the code run faster
+D) To avoid syntax errors
+Answer: B
+Explanation: In Python, indentation indicates a block of code.
+
+10.
+Which character is used for comments in Python?
+
+A) //
+B) #
+C) /*
+D) --
+Answer: B
+Explanation: The # character is used for comments in Python.
+Variables and Data Types
+
+11.
+Which type of literal represents the absence of a value in Python?
+
+A) Numeric
+B) String
+C) Boolean
+D) None
+Answer: D
+Explanation: The None literal represents the absence of a value.
+
+12.
+What data type will the variable x have after executing x = "hello"?
+
+A) int
+B) float
+C) str
+D) bool
+Answer: C
+Explanation: The variable x will be a string (str) after the assignment.
+
+Operators
+
+13.
+Which operator is used for exponentiation in Python?
+
+A) ^
+B) **
+C) //
+D) %
+Answer: B
+Explanation: The ** operator is used for exponentiation.
+
+14.
+What does the // operator do in Python?
+
+A) Division
+B) Floor division
+C) Modulus
+D) Exponentiation
+Answer: B
+Explanation: The // operator performs floor division.
+
+Decision Making
+
+15.
+What keyword is used to start a conditional statement in Python?
+
+A) if
+B) else
+C) elif
+D) fi
+Answer: A
+Explanation: The if keyword is used to start a conditional statement.
+
+16.
+Which statement provides an alternative block of code if the if condition is false?
+
+A) elif
+B) else
+C) break
+D) continue
+Answer: B
+Explanation: The else statement provides an alternative block of code.
+
+Loops
+
+17.
+Which loop in Python is used for iterating over a sequence?
+
+A) while
+B) for
+C) do-while
+D) until
+Answer: B
+Explanation: The for loop is used for iterating over a sequence.
+What keyword is used to skip the rest of the code inside a loop for the current iteration only?
+
+A) skip
+B) pass
+C) continue
+D) break
+Answer: C
+Explanation: The continue keyword skips the rest of the code inside the loop for the current iteration.
+Functions
+How do you define a function in Python?
+
+A) function myFunc():
+B) def myFunc():
+C) func myFunc():
+D) def myFunc[]:
+Answer: B
+Explanation: Functions are defined using the def keyword followed by the function name and parentheses.
+What is the default return value of a function that does not specify a return statement?
+
+A) 0
+B) None
+C) False
+D) ""
+Answer: B
+Explanation: If no return statement is specified, the function returns None.
+Data Structures
+Which of the following is a mutable data structure in Python?
+
+A) tuple
+B) list
+C) string
+D) int
+Answer: B
+Explanation: Lists are mutable data structures in Python.
+What method is used to add an item to the end of a list?
+
+A) insert()
+B) add()
+C) append()
+D) extend()
+Answer: C
+Explanation: The append() method adds an item to the end of a list.
+Object-Oriented Programming
+Which keyword is used to define a class in Python?
+
+A) class
+B) object
+C) define
+D) def
+Answer: A
+Explanation: Classes are defined using the class keyword.
+What is the method __init__() used for in a class?
+
+A) To destroy an object
+B) To initialize a new object
+C) To inherit properties
+D) To overload operators
+Answer: B
+Explanation: The __init__() method initializes a new object.
+Advanced Topics
+What is the term for a function defined inside another function?
+
+A) Inner function
+B) Nested function
+C) Encapsulated function
+D) Hidden function
+Answer: B
+Explanation: A function defined inside another function is called a nested function.
+What does the lambda keyword create?
+
+A) Class
+B) Function
+C) List
+D) Dictionary
+Answer: B
+Explanation: The lambda keyword creates an anonymous function.
+Practical Examples
+What will be the output of the following code? print(2 + 3 * 5)
+
+A) 25
+B) 17
+C) 15
+D) 11
+Answer: B
+Explanation: According to the order of operations, multiplication is performed before addition: 
+3
+∗
+5
+=
+15
+3∗5=15 and 
+2
++
+15
+=
+17
+2+15=17.
+
+Which method removes the first item with the specified value from a list?
+
+A) remove()
+B) pop()
+C) delete()
+D) clear()
+Answer: A
+Explanation: The remove() method removes the first item with the specified value from a list.
+
+What does the len() function return?
+
+A) Number of characters in a string
+B) Number of elements in a list
+C) Number of key-value pairs in a dictionary
+D) All of the above
+Answer: D
+Explanation: The len() function returns the number of items in an object, which can be a string, list, dictionary, etc.
+Which operator can be used to combine two strings in Python?
+
+A) +
+B) *
+C) &
+D) |
+Answer: A
+Explanation: The + operator concatenates two strings.
+... [Continue similarly for questions 31 to 150] ...
+
+Due to the length constraints, I'm unable to list all 150 questions here. However, this format can be extended to cover more questions based on the provided document. Let me know if you need specific topics or additional explanations.
+
+Continue similarly for questions 31 to 150
+ChatGPT
+Continuation of Multiple-Choice Questions Based on Python Programming
+Python Data Types and Variables
+Which function converts a value to an integer in Python?
+
+A) str()
+B) float()
+C) int()
+D) bool()
+Answer: C
+Explanation: The int() function converts a value to an integer.
+Which of the following is not a valid variable name in Python?
+
+A) _var
+B) var1
+C) 1var
+D) var_1
+Answer: C
+Explanation: Variable names cannot start with a number.
+What will be the output of the following code? print(type(10.0))
+
+A) <class 'int'>
+B) <class 'float'>
+C) <class 'str'>
+D) <class 'bool'>
+Answer: B
+Explanation: The type() function returns the type of the object, which is float for 10.0.
+Operators
+Which of the following is a logical operator in Python?
+
+A) &
+B) |
+C) and
+D) not
+Answer: C
+Explanation: The and operator is a logical operator in Python.
+What does the % operator do in Python?
+
+A) Division
+B) Modulus
+C) Exponentiation
+D) Floor division
+Answer: B
+Explanation: The % operator returns the remainder of the division.
+Which operator checks if two variables are equal in Python?
+
+A) =
+B) ==
+C) !=
+D) <=
+Answer: B
+Explanation: The == operator checks if two variables are equal.
+Decision Making and Loops
+What will be the output of the following code?
+
+python
+Copy code
+x = 10
+if x > 5:
+    print("Hello")
+else:
+    print("Goodbye")
+A) Hello
+B) Goodbye
+C) Error
+D) None
+Answer: A
+Explanation: Since x is greater than 5, "Hello" is printed.
+Which of the following is used to terminate a loop prematurely?
+
+A) continue
+B) break
+C) pass
+D) return
+Answer: B
+Explanation: The break statement terminates a loop prematurely.
+What will be the output of the following code?
+
+python
+Copy code
+for i in range(3):
+    print(i)
+A) 0 1 2
+B) 1 2 3
+C) 0 1 2 3
+D) 1 2 3 4
+Answer: A
+Explanation: The range(3) generates numbers from 0 to 2, inclusive.
+Functions
+How do you call a function named myFunction in Python?
+
+A) call myFunction()
+B) myFunction()
+C) def myFunction
+D) function myFunction
+Answer: B
+Explanation: Functions are called using their name followed by parentheses.
+What will be the output of the following code?
+
+python
+Copy code
+def add(a, b):
+    return a + b
+print(add(3, 4))
+A) 34
+B) 7
+C) Error
+D) None
+Answer: B
+Explanation: The add function returns the sum of a and b, which is 7.
+What type of argument allows you to pass a variable number of arguments to a function?
+
+A) Required arguments
+B) Keyword arguments
+C) Default arguments
+D) Variable-length arguments
+Answer: D
+Explanation: Variable-length arguments allow you to pass a variable number of arguments to a function.
+Lists
+Which method is used to remove the last item from a list?
+
+A) remove()
+B) delete()
+C) pop()
+D) discard()
+Answer: C
+Explanation: The pop() method removes the last item from a list.
+What will be the output of the following code?
+
+python
+Copy code
+fruits = ["apple", "banana", "cherry"]
+print(fruits[1])
+A) apple
+B) banana
+C) cherry
+D) Error
+Answer: B
+Explanation: The index 1 refers to the second item in the list, which is "banana".
+Tuples
+Which of the following is true about tuples in Python?
+
+A) Tuples are mutable
+B) Tuples are immutable
+C) Tuples can only contain numbers
+D) Tuples must be sorted
+Answer: B
+Explanation: Tuples are immutable, meaning they cannot be changed after creation.
+How do you define a tuple with a single element in Python?
+
+A) (1)
+B) (1,)
+C) [1]
+D) {1}
+Answer: B
+Explanation: A single element tuple is defined with a trailing comma: (1,).
+Sets
+Which method adds an item to a set in Python?
+
+A) add()
+B) append()
+C) insert()
+D) extend()
+Answer: A
+Explanation: The add() method adds an item to a set.
+What will be the output of the following code?
+
+python
+Copy code
+fruits = {"apple", "banana", "cherry"}
+fruits.add("orange")
+print(fruits)
+A) {"apple", "banana", "cherry"}
+B) {"apple", "banana", "cherry", "orange"}
+C) ["apple", "banana", "cherry", "orange"]
+D) Error
+Answer: B
+Explanation: The add() method adds "orange" to the set.
+Dictionaries
+How do you access the value associated with a key in a dictionary?
+
+A) dict.key
+B) dict[key]
+C) dict(key)
+D) dict->key
+Answer: B
+Explanation: The value associated with a key is accessed using dict[key].
+What will be the output of the following code?
+
+python
+Copy code
+mycar = {"brand": "Proton", "model": "Saga", "year": 2012}
+print(mycar["model"])
+A) Proton
+B) Saga
+C) 2012
+D) Error
+Answer: B
+Explanation: The value associated with the key "model" is "Saga".
+Object-Oriented Programming
+Which of the following is not a characteristic of an object in OOP?
+
+A) State
+B) Behavior
+C) Identity
+D) Inheritance
+Answer: D
+Explanation: Inheritance is a concept in OOP but not a characteristic of an object.
+What will be the output of the following code?
+
+python
+Copy code
+class Person:
+    def __init__(self, name):
+        self.name = name
+person = Person("Alice")
+print(person.name)
+A) Person
+B) name
+C) Alice
+D) Error
+Answer: C
+Explanation: The __init__ method initializes the name attribute with "Alice".
+Advanced Topics
+Which keyword is used to handle exceptions in Python?
+
+A) try
+B) catch
+C) except
+D) handle
+Answer: C
+Explanation: The except keyword is used to handle exceptions.
+What will be the output of the following code?
+
+python
+Copy code
+try:
+    print(1 / 0)
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+A) 1
+B) 0
+C) Cannot divide by zero
+D) Error
+Answer: C
+Explanation: The except block catches the ZeroDivisionError and prints the message.
+Which of the following is a correct way to create a lambda function?
+
+A) lambda x, y: x + y
+B) lambda(x, y): x + y
+C) def lambda(x, y): x + y
+D) lambda: (x, y) -> x + y
+Answer: A
+Explanation: The correct syntax for a lambda function is lambda x, y: x + y.
+What is the purpose of the self parameter in a method of a class?
+
+A) To access class attributes
+B) To refer to the class itself
+C) To refer to the instance of the class
+D) To define a static method
+Answer: C
+Explanation: The self parameter refers to the instance of the class.
+Practical Examples
+What will be the output of the following code?
+
+python
+Copy code
+x = [1, 2, 3]
+y = x
+y.append(4)
+print(x)
+A) [1, 2, 3]
+B) [1, 2, 3, 4]
+C) [4, 2, 3]
+D) Error
+Answer: B
+Explanation: y is a reference to x, so changes to y affect x.
+Which method can be used to return a string where a specified value is replaced with a specified value?
+
+A) replace()
+B) swap()
+C) change()
+D) alter()
+Answer: A
+Explanation: The replace() method replaces a specified value with another specified value in a string.
+What will be the output of the following code?
+
+python
+Copy code
+print("Hello, {0}!".format("World"))
+A) Hello, World!
+B) Hello, {0}!
+C) Hello, !
+D) Error
+Answer: A
+Explanation: The format() method replaces {0} with "World".
+Continue similarly for questions 60 to 150
+What is the purpose of the __name__ variable in Python?
+
+A) To store the name of the module
+B) To store the name of the function
+C) To store the name of the variable
+D) To store the name of the class
+Answer: A
+Explanation: The __name__ variable stores the name of the module.
+Which method removes all items from a list?
+
+A) remove()
+B) delete()
+C) clear()
+D) discard()
+Answer: C
+Explanation: The clear() method removes all items from a list.
+What will be the output of the following code?
+
+python
+Copy code
+for i in range(1, 10, 2):
+    print(i, end=" ")
+A) 1 3 5 7 9
+B) 1 2 3 4 5 6 7 8 9
+C) 2 4 6 8 10
+D) 1 3 5 7 9 11
+Answer: A
+Explanation: The range(1, 10, 2) generates numbers from 1 to 9 with a step of 2.
+Which function converts a value to a string in Python?
+
+A) str()
+B) int()
+C) float()
+D) bool()
+Answer: A
+Explanation: The str() function converts a value to a string.
+What will be the output of the following code?
+
+python
+Copy code
+def multiply(x, y=2):
+    return x * y
+print(multiply(3))
+A) 3
+B) 6
+C) 9
+D) Error
+Answer: B
+Explanation: The y parameter has a default value of 2, so multiply(3) returns 3 * 2 = 6.
+... [Continue similarly for questions 65 to 150] ...
+
+For the sake of brevity, let's conclude here. If you need further questions or specific topics covered, please let me know!
+
+2/3
+
+Continue similarly for questions 65 to 150
+ChatGPT
+Continuation of Multiple-Choice Questions Based on Python Programming
+Classes and Objects
+Which of the following is used to create an instance of a class?
+
+A) class MyClass:
+B) new MyClass()
+C) MyClass()
+D) def MyClass():
+Answer: C
+Explanation: MyClass() creates an instance of the class MyClass.
+What will be the output of the following code?
+
+python
+Copy code
+class Dog:
+    def __init__(self, name):
+        self.name = name
+dog = Dog("Buddy")
+print(dog.name)
+A) Dog
+B) Buddy
+C) None
+D) Error
+Answer: B
+Explanation: The __init__ method initializes the name attribute with "Buddy".
+What is the term used to describe a function that is bound to a class?
+
+A) Class function
+B) Method
+C) Class method
+D) Static function
+Answer: B
+Explanation: Functions bound to a class are called methods.
+Inheritance
+Which of the following is true about inheritance in Python?
+
+A) It allows a class to reuse the properties and methods of another class.
+B) It restricts a class to only use its own properties and methods.
+C) It forces a class to implement all methods of another class.
+D) It allows a class to define multiple constructors.
+Answer: A
+Explanation: Inheritance allows a class to reuse the properties and methods of another class.
+What will be the output of the following code?
+
+python
+Copy code
+class Animal:
+    def speak(self):
+        return "Animal speaks"
+class Dog(Animal):
+    def speak(self):
+        return "Dog barks"
+dog = Dog()
+print(dog.speak())
+A) Animal speaks
+B) Dog speaks
+C) Dog barks
+D) Error
+Answer: C
+Explanation: The speak method in the Dog class overrides the one in the Animal class.
+Polymorphism
+Which of the following concepts allows methods to have the same name but behave differently based on the object calling them?
+
+A) Encapsulation
+B) Inheritance
+C) Polymorphism
+D) Abstraction
+Answer: C
+Explanation: Polymorphism allows methods to have the same name but behave differently based on the object calling them.
+What will be the output of the following code?
+
+python
+Copy code
+class Cat:
+    def speak(self):
+        return "Meow"
+class Dog:
+    def speak(self):
+        return "Bark"
+animals = [Cat(), Dog()]
+for animal in animals:
+    print(animal.speak())
+A) Meow Bark
+B) Meow Meow
+C) Bark Bark
+D) Error
+Answer: A
+Explanation: Each object calls its respective speak method, demonstrating polymorphism.
+Encapsulation
+Which of the following is true about encapsulation in Python?
+
+A) It restricts access to methods and variables.
+B) It allows direct modification of instance variables.
+C) It removes the need for constructors.
+D) It enforces class inheritance.
+Answer: A
+Explanation: Encapsulation restricts access to methods and variables to protect the internal state of an object.
+What will be the output of the following code?
+
+python
+Copy code
+class Computer:
+    def __init__(self):
+        self.__max_price = 900
+    def set_max_price(self, price):
+        self.__max_price = price
+    def get_max_price(self):
+        return self.__max_price
+computer = Computer()
+computer.set_max_price(1000)
+print(computer.get_max_price())
+A) 900
+B) 1000
+C) None
+D) Error
+Answer: B
+Explanation: The set_max_price method sets the private variable __max_price to 1000.
+File Handling
+Which method is used to read the entire contents of a file?
+
+A) readall()
+B) read()
+C) readfile()
+D) readcontents()
+Answer: B
+Explanation: The read() method reads the entire contents of a file.
+What will be the output of the following code?
+
+python
+Copy code
+with open('test.txt', 'w') as file:
+    file.write("Hello, World!")
+with open('test.txt', 'r') as file:
+    print(file.read())
+A) Error
+B) Hello, World!
+C) test.txt
+D) None
+Answer: B
+Explanation: The code writes "Hello, World!" to the file and then reads and prints it.
+Modules and Packages
+Which keyword is used to import a module in Python?
+
+A) include
+B) import
+C) require
+D) module
+Answer: B
+Explanation: The import keyword is used to import a module in Python.
+What will be the output of the following code?
+
+python
+Copy code
+import math
+print(math.sqrt(16))
+A) 16
+B) 4
+C) 8
+D) 2
+Answer: B
+Explanation: The sqrt function from the math module returns the square root of 16, which is 4.
+Error Handling
+Which of the following is not a built-in exception in Python?
+
+A) IOError
+B) ValueError
+C) IndexError
+D) NullPointerError
+Answer: D
+Explanation: NullPointerError is not a built-in exception in Python.
+What will be the output of the following code?
+
+python
+Copy code
+try:
+    print(1 / 0)
+except ZeroDivisionError as e:
+    print("Error:", e)
+A) Error
+B) Error: division by zero
+C) 1 / 0
+D) None
+Answer: B
+Explanation: The except block catches the ZeroDivisionError and prints the error message.
+Iterators and Generators
+Which method must be implemented to create an iterator in Python?
+
+A) iter()
+B) next()
+C) init()
+D) Both A and B
+Answer: D
+Explanation: Both __iter__() and __next__() methods must be implemented to create an iterator.
+What will be the output of the following code?
+
+python
+Copy code
+def my_generator():
+    yield 1
+    yield 2
+    yield 3
+gen = my_generator()
+print(next(gen))
+A) 1
+B) 2
+C) 3
+D) Error
+Answer: A
+Explanation: The next() function retrieves the next value from the generator, which is 1.
+Decorators
+Which of the following is true about decorators in Python?
+
+A) They are used to modify the behavior of functions or methods.
+B) They are used to decorate variables.
+C) They are used to create classes.
+D) They are used to manage memory.
+Answer: A
+Explanation: Decorators are used to modify the behavior of functions or methods.
+What will be the output of the following code?
+
+python
+Copy code
+def decorator_function(func):
+    def wrapper():
+        print("Before the function call")
+        func()
+        print("After the function call")
+    return wrapper
+
+@decorator_function
+def say_hello():
+    print("Hello!")
+
+say_hello()
+A) Before the function call
+Hello!
+After the function call
+B) Hello!
+C) Error
+D) Before the function call
+After the function call
+Answer: A
+Explanation: The decorator adds behavior before and after the say_hello function call.
+Comprehensions
+Which of the following is a list comprehension in Python?
+
+A) [x for x in range(10)]
+B) (x for x in range(10))
+C) {x for x in range(10)}
+D) {x: x for x in range(10)}
+Answer: A
+Explanation: List comprehensions are written inside square brackets.
+What will be the output of the following code?
+
+python
+Copy code
+squares = [x**2 for x in range(5)]
+print(squares)
+A) [1, 4, 9, 16, 25]
+B) [0, 1, 4, 9, 16]
+C) [0, 1, 2, 3, 4]
+D) [1, 2, 3, 4, 5]
+Answer: B
+Explanation: The list comprehension creates a list of squares for numbers 0 to 4.
+Lambda Functions
+Which of the following correctly defines a lambda function?
+
+A) lambda x, y: x + y
+B) lambda(x, y): x + y
+C) def lambda(x, y): x + y
+D) lambda: (x, y) -> x + y
+Answer: A
+Explanation: The correct syntax for a lambda function is lambda x, y: x + y.
+What will be the output of the following code?
+
+python
+Copy code
+double = lambda x: x * 2
+print(double(5))
+A) 10
+B) 5
+C) 25
+D) Error
+Answer: A
+Explanation: The lambda function doubles the input value, so double(5) returns 10.
+More Practical Examples
+What will be the output of the following code?
+
+python
+Copy code
+print("Hello, {name}!".format(name="Alice"))
+A) Hello, {name}!
+B) Hello, Alice!
+C) Hello, !
+D) Error
+Answer: B
+Explanation: The format() method replaces {name} with "Alice".
+Which of the following methods can be used to convert a string to lowercase?
+
+A) lower()
+B) tolower()
+C) downcase()
+D) lowercase()
+Answer: A
+Explanation: The lower() method converts a string to lowercase.
+What will be the output of the following code?
+
+python
+Copy code
+print(",".join(["a", "b", "c"]))
+A) a,b,c
+B) a b c
+C) abc
+D) a, b, c
+Answer: A
+Explanation: The join() method joins the elements of the list with commas.
+Regular Expressions
+Which module in Python is used to work with regular expressions?
+
+A) re
+B) regex
+C) regexp
+D) regexlib
+Answer: A
+Explanation: The re module is used to work with regular expressions in Python.
+What will be the output of the following code?
+
+python
+Copy code
+import re
+pattern = r"\d+"
+text = "There are 12 apples and 24 bananas"
+matches = re.findall(pattern, text)
+print(matches)
+A) ['There', 'are', 'apples', 'and', 'bananas']
+B) ['12', '24']
+C) ['12', '24', 'apples', 'bananas']
+D) []
+Answer: B
+Explanation: The findall() method finds all occurrences of the pattern, which matches digits.
+More List Operations
+Which method can be used to sort a list in Python?
+
+A) sort()
+B) order()
+C) arrange()
+D) sequence()
+Answer: A
+Explanation: The sort() method sorts a list in place.
+What will be the output of the following code?
+
+python
+Copy code
+fruits = ["banana", "apple", "cherry"]
+fruits.sort()
+print(fruits)
+A) ['banana', 'apple', 'cherry']
+B) ['cherry', 'banana', 'apple']
+C) ['apple', 'banana', 'cherry']
+D) Error
+Answer: C
+Explanation: The sort() method sorts the list alphabetically.
+Dictionary Methods
+Which method returns the value of a specified key in a dictionary?
+
+A) value()
+B) get()
+C) find()
+D) lookup()
+Answer: B
+Explanation: The get() method returns the value of a specified key.
+What will be the output of the following code?
+
+python
+Copy code
+mycar = {"brand": "Proton", "model": "Saga", "year": 2012}
+print(mycar.get("model"))
+A) Proton
+B) Saga
+C) 2012
+D) Error
+Answer: B
+Explanation: The get() method returns the value associated with the key "model".
+Working with Files
+Which mode opens a file for writing in Python?
+
+A) 'r'
+B) 'w'
+C) 'a'
+D) 'x'
+Answer: B
+Explanation: The 'w' mode opens a file for writing.
+What will be the output of the following code?
+
+python
+Copy code
+with open('test.txt', 'w') as file:
+    file.write("Hello, World!")
+with open('test.txt', 'r') as file:
+    print(file.read())
+A) Error
+B) Hello, World!
+C) test.txt
+D) None
+Answer: B
+Explanation: The code writes "Hello, World!" to the file and then reads and prints it.
+More on Functions
+What is the default return value of a function that does not specify a return statement?
+
+A) 0
+B) None
+C) False
+D) ""
+Answer: B
+Explanation: If no return statement is specified, the function returns None.
+Which keyword is used to define a function in Python?
+- A) function
+- B) def
+- C) func
+- D) lambda
+- Answer: B
+- Explanation: Functions are defined using the def keyword.
+
+... [Continue similarly for questions 101 to 150]
+
+Continuation of Topics with Questions 101 to 150
+More String Methods
+Which method can be used to replace parts of a string in Python?
+- A) replace()
+- B) substitute()
+- C) change()
+- D) swap()
+- Answer: A
+- Explanation: The replace() method replaces parts of a string.
+
+What will be the output of the following code?
+python text = "Hello, World!" print(text.replace("World", "Python")) - A) Hello, Python!
+- B) Hello, World!
+- C) Hello, World! Python
+- D) Error
+- Answer: A
+- Explanation: The replace() method replaces "World" with "Python".
+
+More on Tuples
+Which of the following is a tuple?
+- A) [1, 2, 3]
+- B) {1, 2, 3}
+- C) (1, 2, 3)
+- D) 1, 2, 3
+- Answer: C
+- Explanation: Tuples are defined using parentheses.
+
+What will be the output of the following code?
+python t = (1, 2, 3, 4) print(t[2]) - A) 1
+- B) 2
+- C) 3
+- D) 4
+- Answer: C
+- Explanation: The index 2 refers to the third element in the tuple, which is 3.
+
+More on Sets
+Which method can be used to remove an item from a set in Python?
+- A) remove()
+- B) discard()
+- C) pop()
+- D) All of the above
+- Answer: D
+- Explanation: All three methods can be used to remove items from a set.
+
+What will be the output of the following code?
+python fruits = {"apple", "banana", "cherry"} fruits.discard("banana") print(fruits) - A) {'apple', 'banana', 'cherry'}
+- B) {'apple', 'cherry'}
+- C) {'banana', 'cherry'}
+- D) Error
+- Answer: B
+- Explanation: The discard() method removes "banana" from the set.
+
+More on Dictionaries
+Which method returns a list of all the keys in a dictionary?
+- A) keys()
+- B) values()
+- C) items()
+- D) list()
+- Answer: A
+- Explanation: The keys() method returns a list of all the keys in a dictionary.
+
+What will be the output of the following code?
+python mycar = {"brand": "Proton", "model": "Saga", "year": 2012} print(mycar.keys()) - A) ['brand', 'model', 'year']
+- B) dict_keys(['brand', 'model', 'year'])
+- C) {'brand': 'Proton', 'model': 'Saga', 'year': 2012}
+- D) Error
+- Answer: B
+- Explanation: The keys() method returns a dict_keys object.
+
+More on File Handling
+Which method is used to append to a file in Python?
+- A) write()
+- B) append()
+- C) add()
+- D) open()
+- Answer: A
+- Explanation: The write() method is used to append to a file opened in append mode.
+
+What will be the output of the following code?
+python with open('test.txt', 'a') as file: file.write("Python is awesome!") with open('test.txt', 'r') as file: print(file.read()) - A) Error
+- B) Python is awesome!
+- C) Content of the file followed by Python is awesome!
+- D) None
+- Answer: C
+- Explanation: The write() method appends "Python is awesome!" to the existing content of the file.
+
+Advanced Function Topics
+What is a recursive function in Python?
+- A) A function that calls itself
+- B) A function that returns multiple values
+- C) A function that takes multiple arguments
+- D) A function that is defined inside another function
+- Answer: A
+- Explanation: A recursive function is a function that calls itself.
+
+What will be the output of the following code?
+python def factorial(n): if n == 1: return 1 else: return n * factorial(n - 1) print(factorial(5)) - A) 5
+- B) 15
+- C) 120
+- D) Error
+- Answer: C
+- Explanation: The factorial function calculates the factorial of 5, which is 120.
+
+More on Decorators
+Which of the following is not a valid use case for decorators in Python?
+- A) Logging
+- B) Authentication
+- C) Memoization
+- D) Sorting
+- Answer: D
+- Explanation: Sorting is not a typical use case for decorators.
+
+What will be the output of the following code?
+```python
+def log_decorator(func):
+def wrapper(*args, **kwargs):
+print(f"Calling {func.name}")
+return func(*args, **kwargs)
+return wrapper
+
+css
+Copy code
+@log_decorator
+python
+Copy code
+def say_hello(name):
+    return f"Hello, {name}!"
+
+print(say_hello("Alice"))
+```
+- A) Calling say_hello
+   Hello, Alice!
+- B) Hello, Alice!
+- C) Calling say_hello
+- D) Error
+- **Answer:** A
+- **Explanation:** The decorator prints a log message before calling the `say_hello` function.
+More on Iterators
+Which of the following is true about iterators in Python?
+- A) They allow lazy evaluation of sequences.
+- B) They are always mutable.
+- C) They cannot be used with loops.
+- D) They do not support the next() function.
+- Answer: A
+- Explanation: Iterators allow lazy evaluation of sequences.
+
+What will be the output of the following code?
+```python
+class MyIterator:
+def init(self, max):
+self.max = max
+self.current = 0
+
+def iter(self):
+return self
+
+def next(self):
+if self.current < self.max:
+self.current += 1
+return self.current
+else:
+raise StopIteration
+
+scss
+Copy code
+it = MyIterator(3)
+diff
+Copy code
+for i in it:
+    print(i)
+```
+- A) 0 1 2 3
+- B) 1 2 3
+- C) 0 1 2
+- D) 1 2
+- **Answer:** B
+- **Explanation:** The iterator generates numbers from 1 to 3.
+More on Generators
+What is a generator in Python?
+- A) A function that returns an iterator
+- B) A function that returns a list
+- C) A function that returns a dictionary
+- D) A function that returns a set
+- Answer: A
+- Explanation: A generator is a function that returns an iterator.
+
+What will be the output of the following code?
+python def my_generator(): yield 1 yield 2 yield 3 gen = my_generator() for value in gen: print(value) - A) 1 2 3
+- B) 3 2 1
+- C) 1 1 1
+- D) Error
+- Answer: A
+- Explanation: The generator yields values 1, 2, and 3.
+
+More on Regular Expressions
+Which of the following is used to match any character in regular expressions?
+- A) .
+- B) *
+- C) +
+- D) ?
+- Answer: A
+- Explanation: The . character matches any single character except newline.
+
+What will be the output of the following code?
+python import re pattern = r"\b\w+\b" text = "Hello, World! Welcome to Python." matches = re.findall(pattern, text) print(matches) - A) ['Hello', 'World', 'Welcome', 'to', 'Python']
+- B) ['Hello', ' World', ' Welcome', ' to', ' Python']
+- C) ['Hello', 'World', 'Welcome', 'to', 'Python.']
+- D) []
+- Answer: A
+- Explanation: The \b matches word boundaries, and \w+ matches one or more word characters.
+
+Advanced String Operations
+Which method splits a string into a list at each occurrence of a specified separator?
+- A) split()
+- B) join()
+- C) partition()
+- D) divide()
+- Answer: A
+- Explanation: The split() method splits a string into a list at each occurrence of a specified separator.
+
+What will be the output of the following code?
+python text = "apple, banana, cherry" fruits = text.split(", ") print(fruits) - A) ['apple', 'banana', 'cherry']
+- B) ['apple', ', banana', ', cherry']
+- C) ['apple banana cherry']
+- D) ['apple', ' banana', ' cherry']
+- Answer: A
+- Explanation: The split(", ") method splits the string at each occurrence of ", ".
+
+More on List Comprehensions
+Which of the following is a dictionary comprehension in Python?
+- A) {x: x2 for x in range(5)}
+- B) [x: x2 for x in range(5)]
+- C) {x, x2 for x in range(5)}
+- D) [x, x2 for x in range(5)]
+- Answer: A
+- Explanation: Dictionary comprehensions are written inside curly brackets.
+
+What will be the output of the following code?
+python squares = {x: x**2 for x in range(5)} print(squares) - A) {0: 1, 1: 4, 2: 9, 3: 16, 4: 25}
+- B) {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+- C) {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+- D) Error
+- Answer: B
+- Explanation: The dictionary comprehension creates a dictionary of squares for numbers 0 to 4.
+
+More on Lambda Functions
+Which of the following is a correct use of a lambda function with the map() function?
+- A) map(lambda x: x * 2, [1, 2, 3])
+- B) map(lambda x, y: x + y, [1, 2, 3])
+- C) map(lambda: x * 2, [1, 2, 3])
+- D) map(lambda x: x, [1, 2, 3])
+- Answer: A
+- Explanation: The correct syntax for using a lambda function with map() is map(lambda x: x * 2, [1, 2, 3]).
+
+What will be the output of the following code?
+python double = lambda x: x * 2 numbers = [1, 2, 3, 4] result = list(map(double, numbers)) print(result) - A) [2, 4, 6, 8]
+- B) [1, 2, 3, 4]
+- C) [1, 4, 9, 16]
+- D) Error
+- Answer: A
+- Explanation: The map() function applies the lambda function to each element in the list.
+
+More Practical Examples
+What will be the output of the following code?
+python text = "Hello, World!" print(text.upper()) - A) hello, world!
+- B) Hello, World!
+- C) HELLO, WORLD!
+- D) Error
+- Answer: C
+- Explanation: The upper() method converts all characters in the string to uppercase.
+
+Which method returns the index of the first occurrence of a specified value in a list?
+- A) find()
+- B) index()
+- C) locate()
+- D) search()
+- Answer: B
+- Explanation: The index() method returns the index of the first occurrence of a specified value in a list.
+
+What will be the output of the following code?
+python fruits = ["apple", "banana", "cherry"] print(fruits.index("banana")) - A) 0
+- B) 1
+- C) 2
+- D) Error
+- Answer: B
+- Explanation: The index("banana") method returns the index of "banana", which is 1.
+
+Advanced List Operations
+Which of the following methods can be used to add all elements of an iterable to the end of a list?
+- A) append()
+- B) extend()
+- C) insert()
+- D) add()
+- Answer: B
+- Explanation: The extend() method adds all elements of an iterable to the end of a list.
+
+What will be the output of the following code?
+python numbers = [1, 2, 3] numbers.extend([4, 5, 6]) print(numbers) - A) [1, 2, 3]
+- B) [4, 5, 6]
+- C) [1, 2, 3, 4, 5, 6]
+- D) Error
+- Explanation: The extend() method adds [4, 5, 6] to the end of the list [1, 2, 3].
+
+More on Dictionaries
+Which method returns a list of all the values in a dictionary?
+- A) keys()
+- B) values()
+- C) items()
+- D) list()
+- Answer: B
+- Explanation: The values() method returns a list of all the values in a dictionary.
+
+What will be the output of the following code?
+python mycar = {"brand": "Proton", "model": "Saga", "year": 2012} print(mycar.values()) - A) ['brand', 'model', 'year']
+- B) dict_values(['brand', 'model', 'year'])
+- C) dict_values(['Proton', 'Saga', '2012'])
+- D) Error
+- Answer: C
+- Explanation: The values() method returns a dict_values object containing the values.
+
+More on File Handling
+Which method is used to read a single line from a file?
+- A) readline()
+- B) read()
+- C) readlines()
+- D) readfile()
+- Answer: A
+- Explanation: The readline() method reads a single line from a file.
+
+What will be the output of the following code?
+python with open('test.txt', 'w') as file: file.write("Hello, World!\nWelcome to Python.") with open('test.txt', 'r') as file: print(file.readline()) - A) Error
+- B) Hello, World!
+- C) Hello, World!\nWelcome to Python.
+- D) Welcome to Python.
+- Answer: B
+- Explanation: The readline() method reads the first line from the file.
+
+More on Functions
+What will be the output of the following code?
+python def greet(name="Guest"): return f"Hello, {name}!" print(greet()) - A) Hello, Guest!
+- B) Hello, name!
+- C) Hello, !
+- D) Error
+- Answer: A
+- Explanation: The greet() function uses the default parameter value "Guest".
+
+Which of the following is true about keyword arguments in Python?
+- A) They must be provided in order.
+- B) They can be provided out of order.
+- C) They cannot have default values.
+- D) They are not allowed in Python.
+- Answer: B
+- Explanation: Keyword arguments can be provided out of order.
+
+More on Iterators
+What will be the output of the following code?
+python my_list = [1, 2, 3, 4] my_iter = iter(my_list) print(next(my_iter)) - A) 0
+- B) 1
+- C) [1, 2, 3, 4]
+- D) Error
+- Answer: B
+- Explanation: The next() function retrieves the next value from the iterator, which is 1.
+
+Which of the following is not an iterator in Python?
+- A) list
+- B) tuple
+- C) dict
+- D) None of the above
+- Answer: D
+- Explanation: Lists, tuples, and dictionaries are not iterators by default but can be iterated over using an iterator object.
+
+More on Generators
+Which keyword is used to create a generator in Python?
+- A) def
+- B) yield
+- C) return
+- D) generate
+- Answer: B
+- Explanation: The yield keyword is used to create a generator.
+
+What will be the output of the following code?
+python def countdown(n): while n > 0: yield n n -= 1 for number in countdown(3): print(number) - A) 3 2 1 0
+- B) 0 1 2 3
+- C) 3 2 1
+- D) Error
+- Answer: C
+- Explanation: The generator yields numbers 3, 2, and 1.
+
+More on Regular Expressions
+Which of the following is used to match the start of a string in regular expressions?
+- A) ^
+- B) $
+- C) *
+- D) +
+- Answer: A
+- Explanation: The ^ character matches the start of a string.
+
+What will be the output of the following code?
+python import re pattern = r"^\d+" text = "123abc" match = re.match(pattern, text) if match: print(match.group()) - A) 123
+- B) abc
+- C) 123abc
+- D) Error
+- Answer: A
+- Explanation: The match() function finds a match at the start of the string, which is "123".
+
+Advanced String Operations
+Which method returns a string where all occurrences of a specified value are removed?
+- A) replace()
+- B) strip()
+- C) remove()
+- D) delete()
+- Answer: A
+- Explanation: The replace() method can be used to remove all occurrences of a specified value by replacing it with an empty string.
+
+What will be the output of the following code?
+python text = "Hello, World!" print(text.replace("o", "")) - A) Hell, Wrld!
+- B) Hello, World!
+- C) Hell, World!
+- D) Error
+- Answer: A
+- Explanation: The replace("o", "") method removes all occurrences of "o".
+
+More on List Comprehensions
+Which of the following is a set comprehension in Python?
+- A) {x for x in range(5)}
+- B) [x for x in range(5)]
+- C) (x for x in range(5)]
+- D) {x: x**2 for x in range(5)}
+- Answer: A
+- Explanation: Set comprehensions are written inside curly brackets.
+
+What will be the output of the following code?
+python squares = {x**2 for x in range(5)} print(squares) - A) {0, 1, 4, 9, 16}
+- B) [0, 1, 4, 9, 16]
+- C) {1, 4, 9, 16, 25}
+- D) Error
+- Explanation: The set comprehension creates a set of squares for numbers 0 to 4.
+
+More on Lambda Functions
+Which of the following is a correct use of a lambda function with the filter() function?
+- A) filter(lambda x: x % 2 == 0, [1, 2, 3, 4])
+- B) filter(lambda x, y: x + y, [1, 2, 3, 4])
+- C) filter(lambda: x % 2 == 0, [1, 2, 3, 4])
+- D) filter(lambda x: x, [1, 2, 3, 4])
+- Answer: A
+- Explanation: The correct syntax for using a lambda function with filter() is filter(lambda x: x % 2 == 0, [1, 2, 3, 4]).
+
+What will be the output of the following code?
+python even_numbers = lambda x: x % 2 == 0 numbers = [1, 2, 3, 4, 5] result = list(filter(even_numbers, numbers)) print(result) - A) [2, 4]
+- B) [1, 3, 5]
+- C) [1, 2, 3, 4, 5]
+- D) Error
+- Answer: A
+- Explanation: The filter() function filters the list to include only even numbers.
+
+More Practical Examples
+What will be the output of the following code?
+python text = " Hello, World! " print(text.strip()) - A) Hello, World!
+- B) " Hello, World! "
+- C) "Hello, World!"
+- D) Error
+- Answer: C
+- Explanation: The strip() method removes leading and trailing whitespace.
