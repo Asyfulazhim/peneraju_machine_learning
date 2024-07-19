@@ -1,0 +1,11 @@
+Booking ID | Customer ID | Car Plate No | Driver ID | Driver Name | Booking Date
+BK001 | CU001 | WC 405L | DR001 | John Doe | 2024-07-01
+BK002 | CU002 | WS 345 | DR002 | Jane Smith | 2024-07-02
+BK003 | CU003 | WV 798 L | DR003 | Robert Brown | 2024-07-03
+BK004 | CU004 | AB 123 C | DR004 | Emily Johnson | 2024-07-04
+BK005 | CU005 | XY 987 Z | DR005 | Michael Davis | 2024-07-05
+BK006 | CU006 | LM 456 K | DR006 | Sarah Wilson | 2024-07-06
+BK007 | CU007 | GH 321 V | DR007 | David Miller | 2024-07-07
+BK008 | CU008 | RT 654 W | DR008 | Laura Martinez | 2024-07-08
+BK009 | CU009 | UV 789 X | DR009 | James Anderson | 2024-07-09
+BK010 | CU010 | PO 111 Q | DR010 | Linda Thomas | 2024-07-10

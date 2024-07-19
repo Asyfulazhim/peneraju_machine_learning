@@ -1,0 +1,14 @@
+Plate No | Make | Model | Year | VIN | Mileage | Insurance Expiry Date | Status
+WC 405L | Corolla | Toyota | 2021 | 1HGBH41JXMN109186 | 15000 | 2025-05-01 | Active
+WS 345  | Ford | Mustang | 2019 | 1ZVBP8EM4E5300000 | 25000 | 2024-04-15 | Inactive
+WV 798 L | Honda | Civic | 2022 | 2HGFG128X8H500000 | 5000 | 2025-06-01 | Active
+AB 123 C | Toyota | Corolla | 2021 | 1HGBH41JXMN109186 | 15000 | 2025-05-01 | Active
+XY 987 Z | Ford | Mustang | 2019 | 1ZVBP8EM4E5300000 | 25000 | 2025-04-15 | Active
+LM 456 K | Honda | Accord | 2020 | 1HGCM82633A123456 | 12000 | 2024-07-01 | Inactive
+GH 321 V | Chevrolet | Malibu | 2018 | 1G1ZC5E18GF123456 | 30000 | 2025-03-01 | Inactive
+RT 654 W | BMW | 3 Series | 2022 | WBA8E9G56GNU123456 | 8000 | 2025-08-01 | Active
+UV 789 X | Audi | A4 | 2021 | WAUBFAFL1EN123456 | 10000 | 2025-09-01 | Active
+PO 111 Q | Mercedes | C-Class | 2019 | WDDGF8ABXDA123456 | 20000 | 2023-10-01 | Inactive
+JK 222 M | Nissan | Altima | 2020 | 1N4AL3AP9GC123456 | 15000 | 2025-11-01 | Active
+QW 333 R | Hyundai | Elantra | 2021 | KMHDH4AE7BU123456 | 12000 | 2025-12-01 | Active
+EF 444 S | Kia | Optima | 2022 | 5XXGN4A70DG123456 | 5000 | 2025-08-01 | Active
