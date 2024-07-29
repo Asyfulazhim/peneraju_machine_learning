@@ -1,2 +1,7 @@
 Date | Car Plate | Car Claim Amount(RM) | Driver ID | Driver Claim Amount(RM) | Total Claim Amount
  2024-07-07 |  GH 321 V  | 0 |  DR007  | 0 | 0
+ 2024-07-03 |  WV 798 L  | 4000 |  DR003  | 0 | 4000
+ 2024-07-05 |  XY 987 Z  | 5000 |  DR005  | 5000 | 10000
+ 2024-07-08 |  RT 654 W  | 1200 |  DR008  | 1200 | 24004
+ 2024-07-06 |  LM 456 K  | 0 |  DR006  | 2000 | 2000
+ 2024-07-09 |  UV 789 X  | 3000 |  DR009  | 0 | 3000
